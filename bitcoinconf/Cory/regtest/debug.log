@@ -1,0 +1,1681 @@
+2022-04-18 11:06:25 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-18 11:06:25 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-18 11:06:25 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-18 11:06:25 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-18 11:06:25 Default data directory /home/mojiu/.bitcoin
+2022-04-18 11:06:25 Using data directory /home/mojiu/bitcoin/bitcoinconf/Cory/regtest
+2022-04-18 11:06:25 Using config file /home/mojiu/bitcoin/bitcoinconf/Cory/bitcoin.conf
+2022-04-18 11:06:25 Using at most 125 connections (1024 file descriptors available)
+2022-04-18 11:06:25 Using 6 threads for script verification
+2022-04-18 11:06:25 scheduler thread start
+2022-04-18 11:06:25 HTTP: creating work queue of depth 16
+2022-04-18 11:06:25 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-18 11:06:25 HTTP: starting 4 worker threads
+2022-04-18 11:06:25 Using wallet wallet.dat
+2022-04-18 11:06:25 init message: Verifying wallet...
+2022-04-18 11:06:25 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/db.log
+2022-04-18 11:06:25 Bound to [::]:18333
+2022-04-18 11:06:25 Bound to 0.0.0.0:18333
+2022-04-18 11:06:25 Cache configuration:
+2022-04-18 11:06:25 * Using 2.0MiB for block index database
+2022-04-18 11:06:25 * Using 32.5MiB for chain state database
+2022-04-18 11:06:25 * Using 65.5MiB for in-memory UTXO set
+2022-04-18 11:06:25 init message: Loading block index...
+2022-04-18 11:06:25 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index
+2022-04-18 11:06:25 Opened LevelDB successfully
+2022-04-18 11:06:25 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index: 0000000000000000
+2022-04-18 11:06:25 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate
+2022-04-18 11:06:25 Opened LevelDB successfully
+2022-04-18 11:06:25 Wrote new obfuscate key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 11:06:25 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 11:06:25 LoadBlockIndexDB: last block file = 0
+2022-04-18 11:06:25 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-04-18 11:06:25 Checking all blk files are present...
+2022-04-18 11:06:25 LoadBlockIndexDB: transaction index disabled
+2022-04-18 11:06:25 Initializing databases...
+2022-04-18 11:06:25 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-04-18 11:06:25 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206  height=0  log2_work=1  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(0tx)
+2022-04-18 11:06:25 init message: Verifying blocks...
+2022-04-18 11:06:25  block index              16ms
+2022-04-18 11:06:25 init message: Loading wallet...
+2022-04-18 11:06:25 nFileVersion = 120100
+2022-04-18 11:06:25 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2022-04-18 11:06:25 Performing wallet upgrade to 60000
+2022-04-18 11:06:25 keypool added key 1, size=1
+2022-04-18 11:06:25 keypool added key 2, size=2
+2022-04-18 11:06:25 keypool added key 3, size=3
+2022-04-18 11:06:25 keypool added key 4, size=4
+2022-04-18 11:06:25 keypool added key 5, size=5
+2022-04-18 11:06:25 keypool added key 6, size=6
+2022-04-18 11:06:25 keypool added key 7, size=7
+2022-04-18 11:06:25 keypool added key 8, size=8
+2022-04-18 11:06:25 keypool added key 9, size=9
+2022-04-18 11:06:25 keypool added key 10, size=10
+2022-04-18 11:06:25 keypool added key 11, size=11
+2022-04-18 11:06:25 keypool added key 12, size=12
+2022-04-18 11:06:25 keypool added key 13, size=13
+2022-04-18 11:06:25 keypool added key 14, size=14
+2022-04-18 11:06:25 keypool added key 15, size=15
+2022-04-18 11:06:25 keypool added key 16, size=16
+2022-04-18 11:06:25 keypool added key 17, size=17
+2022-04-18 11:06:25 keypool added key 18, size=18
+2022-04-18 11:06:25 keypool added key 19, size=19
+2022-04-18 11:06:25 keypool added key 20, size=20
+2022-04-18 11:06:25 keypool added key 21, size=21
+2022-04-18 11:06:25 keypool added key 22, size=22
+2022-04-18 11:06:25 keypool added key 23, size=23
+2022-04-18 11:06:25 keypool added key 24, size=24
+2022-04-18 11:06:25 keypool added key 25, size=25
+2022-04-18 11:06:25 keypool added key 26, size=26
+2022-04-18 11:06:25 keypool added key 27, size=27
+2022-04-18 11:06:25 keypool added key 28, size=28
+2022-04-18 11:06:25 keypool added key 29, size=29
+2022-04-18 11:06:25 keypool added key 30, size=30
+2022-04-18 11:06:25 keypool added key 31, size=31
+2022-04-18 11:06:25 keypool added key 32, size=32
+2022-04-18 11:06:25 keypool added key 33, size=33
+2022-04-18 11:06:25 keypool added key 34, size=34
+2022-04-18 11:06:25 keypool added key 35, size=35
+2022-04-18 11:06:25 keypool added key 36, size=36
+2022-04-18 11:06:25 keypool added key 37, size=37
+2022-04-18 11:06:25 keypool added key 38, size=38
+2022-04-18 11:06:25 keypool added key 39, size=39
+2022-04-18 11:06:25 keypool added key 40, size=40
+2022-04-18 11:06:25 keypool added key 41, size=41
+2022-04-18 11:06:25 keypool added key 42, size=42
+2022-04-18 11:06:25 keypool added key 43, size=43
+2022-04-18 11:06:25 keypool added key 44, size=44
+2022-04-18 11:06:25 keypool added key 45, size=45
+2022-04-18 11:06:25 keypool added key 46, size=46
+2022-04-18 11:06:25 keypool added key 47, size=47
+2022-04-18 11:06:25 keypool added key 48, size=48
+2022-04-18 11:06:25 keypool added key 49, size=49
+2022-04-18 11:06:25 keypool added key 50, size=50
+2022-04-18 11:06:25 keypool added key 51, size=51
+2022-04-18 11:06:25 keypool added key 52, size=52
+2022-04-18 11:06:25 keypool added key 53, size=53
+2022-04-18 11:06:25 keypool added key 54, size=54
+2022-04-18 11:06:25 keypool added key 55, size=55
+2022-04-18 11:06:25 keypool added key 56, size=56
+2022-04-18 11:06:25 keypool added key 57, size=57
+2022-04-18 11:06:25 keypool added key 58, size=58
+2022-04-18 11:06:25 keypool added key 59, size=59
+2022-04-18 11:06:25 keypool added key 60, size=60
+2022-04-18 11:06:25 keypool added key 61, size=61
+2022-04-18 11:06:25 keypool added key 62, size=62
+2022-04-18 11:06:25 keypool added key 63, size=63
+2022-04-18 11:06:25 keypool added key 64, size=64
+2022-04-18 11:06:25 keypool added key 65, size=65
+2022-04-18 11:06:25 keypool added key 66, size=66
+2022-04-18 11:06:25 keypool added key 67, size=67
+2022-04-18 11:06:25 keypool added key 68, size=68
+2022-04-18 11:06:25 keypool added key 69, size=69
+2022-04-18 11:06:25 keypool added key 70, size=70
+2022-04-18 11:06:25 keypool added key 71, size=71
+2022-04-18 11:06:25 keypool added key 72, size=72
+2022-04-18 11:06:25 keypool added key 73, size=73
+2022-04-18 11:06:25 keypool added key 74, size=74
+2022-04-18 11:06:25 keypool added key 75, size=75
+2022-04-18 11:06:25 keypool added key 76, size=76
+2022-04-18 11:06:25 keypool added key 77, size=77
+2022-04-18 11:06:25 keypool added key 78, size=78
+2022-04-18 11:06:25 keypool added key 79, size=79
+2022-04-18 11:06:25 keypool added key 80, size=80
+2022-04-18 11:06:25 keypool added key 81, size=81
+2022-04-18 11:06:25 keypool added key 82, size=82
+2022-04-18 11:06:25 keypool added key 83, size=83
+2022-04-18 11:06:25 keypool added key 84, size=84
+2022-04-18 11:06:25 keypool added key 85, size=85
+2022-04-18 11:06:25 keypool added key 86, size=86
+2022-04-18 11:06:25 keypool added key 87, size=87
+2022-04-18 11:06:25 keypool added key 88, size=88
+2022-04-18 11:06:25 keypool added key 89, size=89
+2022-04-18 11:06:25 keypool added key 90, size=90
+2022-04-18 11:06:25 keypool added key 91, size=91
+2022-04-18 11:06:25 keypool added key 92, size=92
+2022-04-18 11:06:25 keypool added key 93, size=93
+2022-04-18 11:06:25 keypool added key 94, size=94
+2022-04-18 11:06:25 keypool added key 95, size=95
+2022-04-18 11:06:25 keypool added key 96, size=96
+2022-04-18 11:06:25 keypool added key 97, size=97
+2022-04-18 11:06:25 keypool added key 98, size=98
+2022-04-18 11:06:25 keypool added key 99, size=99
+2022-04-18 11:06:25 keypool added key 100, size=100
+2022-04-18 11:06:25 keypool added key 101, size=101
+2022-04-18 11:06:25 keypool reserve 1
+2022-04-18 11:06:25 keypool keep 1
+2022-04-18 11:06:25  wallet                  214ms
+2022-04-18 11:06:25 init message: Activating best chain...
+2022-04-18 11:06:25 mapBlockIndex.size() = 1
+2022-04-18 11:06:25 nBestHeight = 0
+2022-04-18 11:06:25 setKeyPool.size() = 100
+2022-04-18 11:06:25 mapWallet.size() = 0
+2022-04-18 11:06:25 mapAddressBook.size() = 1
+2022-04-18 11:06:25 init message: Loading addresses...
+2022-04-18 11:06:25 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/peers.dat
+2022-04-18 11:06:25 Invalid or missing peers.dat; recreating
+2022-04-18 11:06:25 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/banlist.dat
+2022-04-18 11:06:25 Invalid or missing banlist.dat; recreating
+2022-04-18 11:06:25 Loaded 0 addresses from peers.dat  0ms
+2022-04-18 11:06:25 torcontrol thread start
+2022-04-18 11:06:25 AddLocal([2408:842e:cb0f:8a37:e49a:8f0d:6f3d:45d2]:18333,1)
+2022-04-18 11:06:25 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:e49a:8f0d:6f3d:45d2
+2022-04-18 11:06:25 AddLocal([2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333,1)
+2022-04-18 11:06:25 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83
+2022-04-18 11:06:25 opencon thread start
+2022-04-18 11:06:25 net thread start
+2022-04-18 11:06:25 dnsseed thread start
+2022-04-18 11:06:25 init message: Done loading
+2022-04-18 11:06:25 msghand thread start
+2022-04-18 11:06:25 addcon thread start
+2022-04-18 11:06:25 Loading addresses from DNS seeds (could take a while)
+2022-04-18 11:06:25 0 addresses found from DNS seeds
+2022-04-18 11:06:25 BitcoinMiner started
+2022-04-18 11:06:25 dnsseed thread exit
+2022-04-18 11:06:25 keypool added key 102, size=101
+2022-04-18 11:06:25 keypool reserve 2
+2022-04-18 11:06:25 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:06:25 Running BitcoinMiner with 1 transactions in block (179 bytes)
+2022-04-18 11:06:25 BitcoinMiner:
+2022-04-18 11:06:25 proof-of-work found  
+  hash: 00000292c2691443bdb0ff0600b5a57988c6de8f60549ce603020767a075d6bb  
+target: 7fffff0000000000000000000000000000000000000000000000000000000000
+2022-04-18 11:06:25 CBlock(hash=00000292c2691443bdb0ff0600b5a57988c6de8f60549ce603020767a075d6bb, ver=536870912, hashPrevBlock=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206, hashMerkleRoot=6e950d8bc04b1a6d60bb684f3c5a1d8a99498a55da6a8039e81132f99e71c7aa, nTime=1650279985, nBits=207fffff, nNonce=66235, vtx=1)
+  CTransaction(hash=6e950d8bc0, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 510101)
+    CTxOut(nValue=50.00000000, scriptPubKey=2103c4bcd2b62cb09ef410c9490235)
+
+
+2022-04-18 11:06:25 generated 50.00
+2022-04-18 11:06:25 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-04-18 11:06:25 UpdateTip: new best=00000292c2691443bdb0ff0600b5a57988c6de8f60549ce603020767a075d6bb  height=1  log2_work=2  tx=2  date=2022-04-18 11:06:25 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 11:06:25 AddToWallet 6e950d8bc04b1a6d60bb684f3c5a1d8a99498a55da6a8039e81132f99e71c7aa  new
+2022-04-18 11:06:25 keypool keep 2
+2022-04-18 11:06:25 BitcoinMiner terminated
+2022-04-18 11:07:23 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=1
+2022-04-18 11:07:23 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 11:07:26 Adding fixed seed nodes as DNS doesn't seem to be available.
+2022-04-18 11:07:44 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=2
+2022-04-18 11:07:44 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 11:07:45 UpdateTip: new best=00004ac266db498835b2262859b3e559f529b6e52d69096b8e73a26a1a2097f8  height=2  log2_work=2.5849625  tx=3  date=2022-04-18 11:07:45 progress=1.000000  cache=0.0MiB(2tx)
+2022-04-18 11:14:38 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-18 11:14:38 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-18 11:14:38 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-18 11:14:38 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-18 11:14:38 Default data directory /home/mojiu/.bitcoin
+2022-04-18 11:14:38 Using data directory /home/mojiu/bitcoin/bitcoinconf/Cory/regtest
+2022-04-18 11:14:38 Using config file /home/mojiu/bitcoin/bitcoinconf/Cory/bitcoin.conf
+2022-04-18 11:14:38 Using at most 125 connections (1024 file descriptors available)
+2022-04-18 11:14:38 Using 6 threads for script verification
+2022-04-18 11:14:38 scheduler thread start
+2022-04-18 11:14:38 HTTP: creating work queue of depth 16
+2022-04-18 11:14:38 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-18 11:14:38 HTTP: starting 4 worker threads
+2022-04-18 11:14:38 Using wallet wallet.dat
+2022-04-18 11:14:38 init message: Verifying wallet...
+2022-04-18 11:14:38 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/db.log
+2022-04-18 11:14:38 Bound to [::]:18333
+2022-04-18 11:14:38 Bound to 0.0.0.0:18333
+2022-04-18 11:14:38 Cache configuration:
+2022-04-18 11:14:38 * Using 2.0MiB for block index database
+2022-04-18 11:14:38 * Using 32.5MiB for chain state database
+2022-04-18 11:14:38 * Using 65.5MiB for in-memory UTXO set
+2022-04-18 11:14:38 init message: Loading block index...
+2022-04-18 11:14:38 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index
+2022-04-18 11:14:38 Opened LevelDB successfully
+2022-04-18 11:14:38 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index: 0000000000000000
+2022-04-18 11:14:38 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate
+2022-04-18 11:14:38 Opened LevelDB successfully
+2022-04-18 11:14:38 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 11:14:38 LoadBlockIndexDB: last block file = 0
+2022-04-18 11:14:38 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=293, heights=0...0, time=2011-02-02...2011-02-02)
+2022-04-18 11:14:38 Checking all blk files are present...
+2022-04-18 11:14:38 LoadBlockIndexDB: transaction index disabled
+2022-04-18 11:14:38 LoadBlockIndexDB: hashBestChain=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 date=2011-02-02 23:16:42 progress=1.000000
+2022-04-18 11:14:38 init message: Verifying blocks...
+2022-04-18 11:14:38  block index              13ms
+2022-04-18 11:14:38 init message: Loading wallet...
+2022-04-18 11:14:38 nFileVersion = 120100
+2022-04-18 11:14:38 Keys: 102 plaintext, 0 encrypted, 102 w/ metadata, 102 total
+2022-04-18 11:14:38  wallet                    5ms
+2022-04-18 11:14:38 init message: Activating best chain...
+2022-04-18 11:14:38 mapBlockIndex.size() = 1
+2022-04-18 11:14:38 nBestHeight = 0
+2022-04-18 11:14:38 setKeyPool.size() = 100
+2022-04-18 11:14:38 mapWallet.size() = 1
+2022-04-18 11:14:38 mapAddressBook.size() = 1
+2022-04-18 11:14:38 init message: Loading addresses...
+2022-04-18 11:14:38 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/peers.dat
+2022-04-18 11:14:38 Invalid or missing peers.dat; recreating
+2022-04-18 11:14:38 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/banlist.dat
+2022-04-18 11:14:38 Invalid or missing banlist.dat; recreating
+2022-04-18 11:14:38 torcontrol thread start
+2022-04-18 11:14:38 Loaded 0 addresses from peers.dat  0ms
+2022-04-18 11:14:38 AddLocal([2408:842e:cb0f:8a37:c367:13b6:acde:5336]:18333,1)
+2022-04-18 11:14:38 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:c367:13b6:acde:5336
+2022-04-18 11:14:38 AddLocal([2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333,1)
+2022-04-18 11:14:38 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83
+2022-04-18 11:14:38 dnsseed thread start
+2022-04-18 11:14:38 init message: Done loading
+2022-04-18 11:14:38 BitcoinMiner started
+2022-04-18 11:14:38 Loading addresses from DNS seeds (could take a while)
+2022-04-18 11:14:38 0 addresses found from DNS seeds
+2022-04-18 11:14:38 dnsseed thread exit
+2022-04-18 11:14:38 opencon thread start
+2022-04-18 11:14:38 net thread start
+2022-04-18 11:14:38 msghand thread start
+2022-04-18 11:14:38 addcon thread start
+2022-04-18 11:14:38 keypool added key 103, size=101
+2022-04-18 11:14:38 keypool reserve 3
+2022-04-18 11:14:38 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:14:38 Running BitcoinMiner with 1 transactions in block (179 bytes)
+2022-04-18 11:14:39 BitcoinMiner:
+2022-04-18 11:14:39 proof-of-work found  
+  hash: 000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9  
+target: 7fffff0000000000000000000000000000000000000000000000000000000000
+2022-04-18 11:14:39 CBlock(hash=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9, ver=536870912, hashPrevBlock=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206, hashMerkleRoot=e2281d19f60e6dc3349dd8d2b5b9beea6ae96930dadbd53f04d4f2ae07a0adfb, nTime=1650280479, nBits=207fffff, nNonce=206356, vtx=1)
+  CTransaction(hash=e2281d19f6, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 510101)
+    CTxOut(nValue=50.00000000, scriptPubKey=21026a9b37b7c136bc6d5e42ba5f0d)
+
+
+2022-04-18 11:14:39 generated 50.00
+2022-04-18 11:14:39 Pre-allocating up to position 0x100000 in rev00000.dat
+2022-04-18 11:14:39 UpdateTip: new best=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9  height=1  log2_work=2  tx=2  date=2022-04-18 11:14:39 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 11:14:39 AddToWallet e2281d19f60e6dc3349dd8d2b5b9beea6ae96930dadbd53f04d4f2ae07a0adfb  new
+2022-04-18 11:14:39 keypool keep 3
+2022-04-18 11:14:39 BitcoinMiner terminated
+2022-04-18 11:15:31 PROCESSMESSAGE: INVALID MESSAGESTART version peer=1
+2022-04-18 11:15:32 PROCESSMESSAGE: INVALID MESSAGESTART version peer=2
+2022-04-18 11:15:33 PROCESSMESSAGE: INVALID MESSAGESTART version peer=3
+2022-04-18 11:15:34 PROCESSMESSAGE: INVALID MESSAGESTART version peer=4
+2022-04-18 11:15:36 PROCESSMESSAGE: INVALID MESSAGESTART version peer=5
+2022-04-18 11:15:38 PROCESSMESSAGE: INVALID MESSAGESTART version peer=6
+2022-04-18 11:15:39 PROCESSMESSAGE: INVALID MESSAGESTART version peer=7
+2022-04-18 11:15:39 PROCESSMESSAGE: INVALID MESSAGESTART version peer=8
+2022-04-18 11:15:39 Adding fixed seed nodes as DNS doesn't seem to be available.
+2022-04-18 11:15:40 PROCESSMESSAGE: INVALID MESSAGESTART version peer=9
+2022-04-18 11:15:41 PROCESSMESSAGE: INVALID MESSAGESTART version peer=10
+2022-04-18 11:15:42 PROCESSMESSAGE: INVALID MESSAGESTART version peer=11
+2022-04-18 11:15:43 PROCESSMESSAGE: INVALID MESSAGESTART version peer=12
+2022-04-18 11:15:45 PROCESSMESSAGE: INVALID MESSAGESTART version peer=13
+2022-04-18 11:15:46 PROCESSMESSAGE: INVALID MESSAGESTART version peer=14
+2022-04-18 11:15:49 PROCESSMESSAGE: INVALID MESSAGESTART version peer=15
+2022-04-18 11:15:49 PROCESSMESSAGE: INVALID MESSAGESTART version peer=16
+2022-04-18 11:15:52 PROCESSMESSAGE: INVALID MESSAGESTART version peer=17
+2022-04-18 11:15:54 PROCESSMESSAGE: INVALID MESSAGESTART version peer=18
+2022-04-18 11:15:56 PROCESSMESSAGE: INVALID MESSAGESTART version peer=19
+2022-04-18 11:15:59 PROCESSMESSAGE: INVALID MESSAGESTART version peer=20
+2022-04-18 11:16:01 PROCESSMESSAGE: INVALID MESSAGESTART version peer=21
+2022-04-18 11:16:04 PROCESSMESSAGE: INVALID MESSAGESTART version peer=22
+2022-04-18 11:16:06 PROCESSMESSAGE: INVALID MESSAGESTART version peer=23
+2022-04-18 11:16:10 PROCESSMESSAGE: INVALID MESSAGESTART version peer=24
+2022-04-18 11:16:11 PROCESSMESSAGE: INVALID MESSAGESTART version peer=25
+2022-04-18 11:16:15 PROCESSMESSAGE: INVALID MESSAGESTART version peer=26
+2022-04-18 11:16:17 PROCESSMESSAGE: INVALID MESSAGESTART version peer=27
+2022-04-18 11:16:21 PROCESSMESSAGE: INVALID MESSAGESTART version peer=28
+2022-04-18 11:16:22 PROCESSMESSAGE: INVALID MESSAGESTART version peer=29
+2022-04-18 11:16:26 PROCESSMESSAGE: INVALID MESSAGESTART version peer=30
+2022-04-18 11:16:28 PROCESSMESSAGE: INVALID MESSAGESTART version peer=31
+2022-04-18 11:16:32 PROCESSMESSAGE: INVALID MESSAGESTART version peer=32
+2022-04-18 11:16:33 PROCESSMESSAGE: INVALID MESSAGESTART version peer=33
+2022-04-18 11:16:37 PROCESSMESSAGE: INVALID MESSAGESTART version peer=34
+2022-04-18 11:16:39 PROCESSMESSAGE: INVALID MESSAGESTART version peer=35
+2022-04-18 11:16:43 PROCESSMESSAGE: INVALID MESSAGESTART version peer=36
+2022-04-18 11:16:44 PROCESSMESSAGE: INVALID MESSAGESTART version peer=37
+2022-04-18 11:16:48 PROCESSMESSAGE: INVALID MESSAGESTART version peer=38
+2022-04-18 11:16:50 PROCESSMESSAGE: INVALID MESSAGESTART version peer=39
+2022-04-18 11:16:54 PROCESSMESSAGE: INVALID MESSAGESTART version peer=40
+2022-04-18 11:16:55 PROCESSMESSAGE: INVALID MESSAGESTART version peer=41
+2022-04-18 11:16:59 PROCESSMESSAGE: INVALID MESSAGESTART version peer=42
+2022-04-18 11:17:01 PROCESSMESSAGE: INVALID MESSAGESTART version peer=43
+2022-04-18 11:17:05 PROCESSMESSAGE: INVALID MESSAGESTART version peer=44
+2022-04-18 11:17:06 PROCESSMESSAGE: INVALID MESSAGESTART version peer=45
+2022-04-18 11:17:10 PROCESSMESSAGE: INVALID MESSAGESTART version peer=46
+2022-04-18 11:17:12 PROCESSMESSAGE: INVALID MESSAGESTART version peer=47
+2022-04-18 11:17:16 PROCESSMESSAGE: INVALID MESSAGESTART version peer=48
+2022-04-18 11:17:17 PROCESSMESSAGE: INVALID MESSAGESTART version peer=49
+2022-04-18 11:17:21 PROCESSMESSAGE: INVALID MESSAGESTART version peer=50
+2022-04-18 11:17:23 PROCESSMESSAGE: INVALID MESSAGESTART version peer=51
+2022-04-18 11:17:27 PROCESSMESSAGE: INVALID MESSAGESTART version peer=52
+2022-04-18 11:17:28 PROCESSMESSAGE: INVALID MESSAGESTART version peer=53
+2022-04-18 11:17:32 PROCESSMESSAGE: INVALID MESSAGESTART version peer=54
+2022-04-18 11:17:34 PROCESSMESSAGE: INVALID MESSAGESTART version peer=55
+2022-04-18 11:17:38 PROCESSMESSAGE: INVALID MESSAGESTART version peer=56
+2022-04-18 11:17:39 PROCESSMESSAGE: INVALID MESSAGESTART version peer=57
+2022-04-18 11:17:43 PROCESSMESSAGE: INVALID MESSAGESTART version peer=58
+2022-04-18 11:17:45 PROCESSMESSAGE: INVALID MESSAGESTART version peer=59
+2022-04-18 11:17:49 PROCESSMESSAGE: INVALID MESSAGESTART version peer=60
+2022-04-18 11:17:50 PROCESSMESSAGE: INVALID MESSAGESTART version peer=61
+2022-04-18 11:17:54 PROCESSMESSAGE: INVALID MESSAGESTART version peer=62
+2022-04-18 11:17:56 PROCESSMESSAGE: INVALID MESSAGESTART version peer=63
+2022-04-18 11:18:00 PROCESSMESSAGE: INVALID MESSAGESTART version peer=64
+2022-04-18 11:18:01 PROCESSMESSAGE: INVALID MESSAGESTART version peer=65
+2022-04-18 11:18:05 PROCESSMESSAGE: INVALID MESSAGESTART version peer=66
+2022-04-18 11:18:07 PROCESSMESSAGE: INVALID MESSAGESTART version peer=67
+2022-04-18 11:18:11 PROCESSMESSAGE: INVALID MESSAGESTART version peer=68
+2022-04-18 11:18:12 PROCESSMESSAGE: INVALID MESSAGESTART version peer=69
+2022-04-18 11:18:16 PROCESSMESSAGE: INVALID MESSAGESTART version peer=70
+2022-04-18 11:18:18 PROCESSMESSAGE: INVALID MESSAGESTART version peer=71
+2022-04-18 11:18:22 PROCESSMESSAGE: INVALID MESSAGESTART version peer=72
+2022-04-18 11:18:23 PROCESSMESSAGE: INVALID MESSAGESTART version peer=73
+2022-04-18 11:18:27 PROCESSMESSAGE: INVALID MESSAGESTART version peer=74
+2022-04-18 11:18:29 PROCESSMESSAGE: INVALID MESSAGESTART version peer=75
+2022-04-18 11:18:33 PROCESSMESSAGE: INVALID MESSAGESTART version peer=76
+2022-04-18 11:18:34 PROCESSMESSAGE: INVALID MESSAGESTART version peer=77
+2022-04-18 11:18:38 PROCESSMESSAGE: INVALID MESSAGESTART version peer=78
+2022-04-18 11:18:40 PROCESSMESSAGE: INVALID MESSAGESTART version peer=79
+2022-04-18 11:18:44 PROCESSMESSAGE: INVALID MESSAGESTART version peer=80
+2022-04-18 11:18:45 PROCESSMESSAGE: INVALID MESSAGESTART version peer=81
+2022-04-18 11:18:49 PROCESSMESSAGE: INVALID MESSAGESTART version peer=82
+2022-04-18 11:18:51 PROCESSMESSAGE: INVALID MESSAGESTART version peer=83
+2022-04-18 11:18:55 PROCESSMESSAGE: INVALID MESSAGESTART version peer=84
+2022-04-18 11:18:56 PROCESSMESSAGE: INVALID MESSAGESTART version peer=85
+2022-04-18 11:19:00 PROCESSMESSAGE: INVALID MESSAGESTART version peer=86
+2022-04-18 11:19:02 PROCESSMESSAGE: INVALID MESSAGESTART version peer=87
+2022-04-18 11:19:06 PROCESSMESSAGE: INVALID MESSAGESTART version peer=88
+2022-04-18 11:19:07 PROCESSMESSAGE: INVALID MESSAGESTART version peer=89
+2022-04-18 11:19:11 PROCESSMESSAGE: INVALID MESSAGESTART version peer=90
+2022-04-18 11:19:13 PROCESSMESSAGE: INVALID MESSAGESTART version peer=91
+2022-04-18 11:19:17 PROCESSMESSAGE: INVALID MESSAGESTART version peer=92
+2022-04-18 11:19:19 PROCESSMESSAGE: INVALID MESSAGESTART version peer=93
+2022-04-18 11:19:22 PROCESSMESSAGE: INVALID MESSAGESTART version peer=94
+2022-04-18 11:19:24 PROCESSMESSAGE: INVALID MESSAGESTART version peer=95
+2022-04-18 11:19:28 PROCESSMESSAGE: INVALID MESSAGESTART version peer=96
+2022-04-18 11:19:29 PROCESSMESSAGE: INVALID MESSAGESTART version peer=97
+2022-04-18 11:19:33 PROCESSMESSAGE: INVALID MESSAGESTART version peer=98
+2022-04-18 11:19:35 PROCESSMESSAGE: INVALID MESSAGESTART version peer=99
+2022-04-18 11:19:39 PROCESSMESSAGE: INVALID MESSAGESTART version peer=100
+2022-04-18 11:19:40 PROCESSMESSAGE: INVALID MESSAGESTART version peer=101
+2022-04-18 11:19:44 PROCESSMESSAGE: INVALID MESSAGESTART version peer=102
+2022-04-18 11:19:46 PROCESSMESSAGE: INVALID MESSAGESTART version peer=103
+2022-04-18 11:19:50 PROCESSMESSAGE: INVALID MESSAGESTART version peer=104
+2022-04-18 11:19:51 PROCESSMESSAGE: INVALID MESSAGESTART version peer=105
+2022-04-18 11:19:55 PROCESSMESSAGE: INVALID MESSAGESTART version peer=106
+2022-04-18 11:19:57 PROCESSMESSAGE: INVALID MESSAGESTART version peer=107
+2022-04-18 11:20:01 PROCESSMESSAGE: INVALID MESSAGESTART version peer=108
+2022-04-18 11:20:02 PROCESSMESSAGE: INVALID MESSAGESTART version peer=109
+2022-04-18 11:20:06 PROCESSMESSAGE: INVALID MESSAGESTART version peer=110
+2022-04-18 11:20:08 PROCESSMESSAGE: INVALID MESSAGESTART version peer=111
+2022-04-18 11:20:12 PROCESSMESSAGE: INVALID MESSAGESTART version peer=112
+2022-04-18 11:20:13 PROCESSMESSAGE: INVALID MESSAGESTART version peer=113
+2022-04-18 11:20:17 PROCESSMESSAGE: INVALID MESSAGESTART version peer=114
+2022-04-18 11:20:19 PROCESSMESSAGE: INVALID MESSAGESTART version peer=115
+2022-04-18 11:20:22 tor: Thread interrupt
+2022-04-18 11:20:22 torcontrol thread exit
+2022-04-18 11:20:22 opencon thread interrupt
+2022-04-18 11:20:22 msghand thread interrupt
+2022-04-18 11:20:22 scheduler thread interrupt
+2022-04-18 11:20:22 addcon thread interrupt
+2022-04-18 11:20:22 net thread interrupt
+2022-04-18 11:20:22 Shutdown: In progress...
+2022-04-18 11:20:22 StopNode()
+2022-04-18 11:20:22 Shutdown: done
+2022-04-18 11:23:42 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-18 11:23:42 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-18 11:23:42 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-18 11:23:42 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-18 11:23:42 Default data directory /home/mojiu/.bitcoin
+2022-04-18 11:23:42 Using data directory /home/mojiu/bitcoin/bitcoinconf/Cory/regtest
+2022-04-18 11:23:42 Using config file /home/mojiu/bitcoin/bitcoinconf/Cory/bitcoin.conf
+2022-04-18 11:23:42 Using at most 125 connections (1024 file descriptors available)
+2022-04-18 11:23:42 Using 6 threads for script verification
+2022-04-18 11:23:42 scheduler thread start
+2022-04-18 11:23:42 HTTP: creating work queue of depth 16
+2022-04-18 11:23:42 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-18 11:23:42 HTTP: starting 4 worker threads
+2022-04-18 11:23:42 Using wallet wallet.dat
+2022-04-18 11:23:42 init message: Verifying wallet...
+2022-04-18 11:23:42 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/db.log
+2022-04-18 11:23:42 Bound to [::]:18333
+2022-04-18 11:23:42 Bound to 0.0.0.0:18333
+2022-04-18 11:23:42 Cache configuration:
+2022-04-18 11:23:42 * Using 2.0MiB for block index database
+2022-04-18 11:23:42 * Using 32.5MiB for chain state database
+2022-04-18 11:23:42 * Using 65.5MiB for in-memory UTXO set
+2022-04-18 11:23:42 init message: Loading block index...
+2022-04-18 11:23:42 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index
+2022-04-18 11:23:42 Opened LevelDB successfully
+2022-04-18 11:23:42 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index: 0000000000000000
+2022-04-18 11:23:42 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate
+2022-04-18 11:23:42 Opened LevelDB successfully
+2022-04-18 11:23:42 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 11:23:42 LoadBlockIndexDB: last block file = 0
+2022-04-18 11:23:42 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=2, size=480, heights=0...1, time=2011-02-02...2022-04-18)
+2022-04-18 11:23:42 Checking all blk files are present...
+2022-04-18 11:23:42 LoadBlockIndexDB: transaction index disabled
+2022-04-18 11:23:42 LoadBlockIndexDB: hashBestChain=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9 height=1 date=2022-04-18 11:14:39 progress=1.000000
+2022-04-18 11:23:42 init message: Verifying blocks...
+2022-04-18 11:23:42 Verifying last 1 blocks at level 3
+2022-04-18 11:23:42 No coin database inconsistencies in last 1 blocks (1 transactions)
+2022-04-18 11:23:42  block index              10ms
+2022-04-18 11:23:42 init message: Loading wallet...
+2022-04-18 11:23:42 nFileVersion = 120100
+2022-04-18 11:23:42 Keys: 103 plaintext, 0 encrypted, 103 w/ metadata, 103 total
+2022-04-18 11:23:42  wallet                    2ms
+2022-04-18 11:23:42 init message: Activating best chain...
+2022-04-18 11:23:42 mapBlockIndex.size() = 2
+2022-04-18 11:23:42 nBestHeight = 1
+2022-04-18 11:23:42 setKeyPool.size() = 100
+2022-04-18 11:23:42 mapWallet.size() = 2
+2022-04-18 11:23:42 mapAddressBook.size() = 1
+2022-04-18 11:23:42 init message: Loading addresses...
+2022-04-18 11:23:42 torcontrol thread start
+2022-04-18 11:23:42 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/banlist.dat
+2022-04-18 11:23:42 Invalid or missing banlist.dat; recreating
+2022-04-18 11:23:42 Loaded 0 addresses from peers.dat  0ms
+2022-04-18 11:23:42 AddLocal([2408:842e:cb0f:8a37:5fdd:205c:18c4:c8a2]:18333,1)
+2022-04-18 11:23:42 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:5fdd:205c:18c4:c8a2
+2022-04-18 11:23:42 AddLocal([2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333,1)
+2022-04-18 11:23:42 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83
+2022-04-18 11:23:42 dnsseed thread start
+2022-04-18 11:23:42 Loading addresses from DNS seeds (could take a while)
+2022-04-18 11:23:42 addcon thread start
+2022-04-18 11:23:42 0 addresses found from DNS seeds
+2022-04-18 11:23:42 dnsseed thread exit
+2022-04-18 11:23:42 net thread start
+2022-04-18 11:23:42 msghand thread start
+2022-04-18 11:23:42 opencon thread start
+2022-04-18 11:23:42 init message: Done loading
+2022-04-18 11:23:42 BitcoinMiner started
+2022-04-18 11:23:42 keypool added key 104, size=101
+2022-04-18 11:23:42 keypool reserve 4
+2022-04-18 11:23:42 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:23:42 Running BitcoinMiner with 1 transactions in block (179 bytes)
+2022-04-18 11:23:42 BitcoinMiner:
+2022-04-18 11:23:42 proof-of-work found  
+  hash: 0000dbd6f894d9d80f585d87af139387986f4f3138cbff72f22fc07db121732c  
+target: 7fffff0000000000000000000000000000000000000000000000000000000000
+2022-04-18 11:23:42 CBlock(hash=0000dbd6f894d9d80f585d87af139387986f4f3138cbff72f22fc07db121732c, ver=536870912, hashPrevBlock=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9, hashMerkleRoot=fd16b2974483169f4654c1e7d35052efcd8add4f9f7eab0b7e54f390ffa19bfe, nTime=1650281022, nBits=207fffff, nNonce=36980, vtx=1)
+  CTransaction(hash=fd16b29744, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 520101)
+    CTxOut(nValue=50.00000000, scriptPubKey=2103d91d70085a65143c42e9b9cc18)
+
+
+2022-04-18 11:23:42 generated 50.00
+2022-04-18 11:23:42 UpdateTip: new best=0000dbd6f894d9d80f585d87af139387986f4f3138cbff72f22fc07db121732c  height=2  log2_work=2.5849625  tx=3  date=2022-04-18 11:23:42 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 11:23:42 AddToWallet fd16b2974483169f4654c1e7d35052efcd8add4f9f7eab0b7e54f390ffa19bfe  new
+2022-04-18 11:23:42 keypool keep 4
+2022-04-18 11:23:42 BitcoinMiner terminated
+2022-04-18 11:23:52 receive version message: /Satoshi:0.12.1/: version 70012, blocks=2, us=0.0.0.0:0, peer=1
+2022-04-18 11:23:52 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 11:23:52 UpdateTip: new best=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9  height=1  log2_work=2  tx=2  date=2022-04-18 11:14:39 progress=1.000000  cache=0.0MiB(0tx)
+2022-04-18 11:23:52 AddToWallet fd16b2974483169f4654c1e7d35052efcd8add4f9f7eab0b7e54f390ffa19bfe  
+2022-04-18 11:23:52 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206  height=0  log2_work=1  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 11:23:52 AddToWallet e2281d19f60e6dc3349dd8d2b5b9beea6ae96930dadbd53f04d4f2ae07a0adfb  
+2022-04-18 11:23:52 UpdateTip: new best=00000292c2691443bdb0ff0600b5a57988c6de8f60549ce603020767a075d6bb  height=1  log2_work=2  tx=2  date=2022-04-18 11:06:25 progress=1.000000  cache=0.0MiB(2tx)
+2022-04-18 11:23:52 AddToWallet 6e950d8bc04b1a6d60bb684f3c5a1d8a99498a55da6a8039e81132f99e71c7aa  
+2022-04-18 11:23:52 UpdateTip: new best=00004ac266db498835b2262859b3e559f529b6e52d69096b8e73a26a1a2097f8  height=2  log2_work=2.5849625  tx=3  date=2022-04-18 11:07:45 progress=1.000000  cache=0.0MiB(3tx)
+2022-04-18 11:23:52 UpdateTip: new best=000014eb3bc68b83e2eee359abe6c6038d9267665029f89a91d5dac32762d6da  height=3  log2_work=3  tx=4  date=2022-04-18 11:23:52 progress=1.000000  cache=0.0MiB(4tx)
+2022-04-18 11:24:02 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=2
+2022-04-18 11:24:02 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 11:24:43 Adding fixed seed nodes as DNS doesn't seem to be available.
+2022-04-18 11:27:42 keypool added key 105, size=101
+2022-04-18 11:27:42 keypool reserve 5
+2022-04-18 11:27:42 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:27:42 UpdateTip: new best=7bb47c41c570808828e393a851351230ca154c67e6b81a88bed0da8ca7cc3519  height=4  log2_work=3.3219281  tx=5  date=2022-04-18 11:27:42 progress=1.000000  cache=0.0MiB(5tx)
+2022-04-18 11:27:42 AddToWallet fe5dda00781b6040b36d3a37911b978962cc8b7aaa5b46c39765732ac1f8bd71  new
+2022-04-18 11:27:42 keypool keep 5
+2022-04-18 11:28:18 keypool added key 106, size=101
+2022-04-18 11:28:18 keypool reserve 6
+2022-04-18 11:28:18 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:28:18 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:28:18 UpdateTip: new best=174b37bba3f27d256d1e8631304567aebcdacc643152b0811637f706419b6dab  height=5  log2_work=3.5849625  tx=6  date=2022-04-18 11:28:18 progress=1.000000  cache=0.0MiB(6tx)
+2022-04-18 11:28:18 AddToWallet c170eb1364903ccb9879496c49db0b2c841dba0bf82b2cd4ea33b5813ed251c2  new
+2022-04-18 11:28:18 keypool keep 6
+2022-04-18 11:28:18 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:28:18 UpdateTip: new best=163849cc11a1ad70d557633a51819c373c9c4c19361e1f97c8fd5c8159207bf8  height=6  log2_work=3.8073549  tx=7  date=2022-04-18 11:28:18 progress=1.000000  cache=0.0MiB(7tx)
+2022-04-18 11:28:18 AddToWallet e323314d0458dc21c5746f29a01878a77364e6b22529529585ba9c6b53faea3b  new
+2022-04-18 11:37:48 keypool added key 107, size=101
+2022-04-18 11:37:48 keypool reserve 7
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=14f230ba8ee5f4f23eb546ef3071901ca225045520af0884994e3433542ff4e3  height=7  log2_work=4  tx=8  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(8tx)
+2022-04-18 11:37:48 AddToWallet 16c6cdb5790ba77cf9d40ebb635297437bd46a61cde1ad657e7e6428619b3285  new
+2022-04-18 11:37:48 keypool keep 7
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=21be0f8add9fb1fec1d409f229170f46ed24ac6cf5f18c9b7912d4e35da33009  height=8  log2_work=4.169925  tx=9  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(9tx)
+2022-04-18 11:37:48 AddToWallet 4d67bd90f630bc7c7e1c572c4313b72e88f23558a60b7b4b0237f6c70775b6b2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5a620bb171cbf905a968e9cc4665cfe1227889e4b9d89990c6cec1c1c4be7612  height=9  log2_work=4.3219281  tx=10  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(10tx)
+2022-04-18 11:37:48 AddToWallet 788e4555b7c55bdcb920a9509ae755ef89963f906d6d5f32dc8266613626a4cd  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=3334d046215fc322092666f695d1a1bbcaff8ab3861d3ab1d8971bddb5b367da  height=10  log2_work=4.4594316  tx=11  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(11tx)
+2022-04-18 11:37:48 AddToWallet f53200d14852747184ed4fd7e90b4fdcbca2de2c913574c6229a875692295259  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=4713803d97a6ab2cebc5a8c52a2d6a6339111214df51269a35739ad9e36e8d79  height=11  log2_work=4.5849625  tx=12  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(12tx)
+2022-04-18 11:37:48 AddToWallet f79767946b3370a9e387f2854fad0935f3dc7d43bdd4f3d6c8a0aa3cab266303  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5ff499c9584ab3495fa0eea7315205a07b7976cb9745c92c014a0d80e8c7efd0  height=12  log2_work=4.7004397  tx=13  date=2022-04-18 11:37:48 progress=1.000000  cache=0.0MiB(13tx)
+2022-04-18 11:37:48 AddToWallet 12d256ee14d4760926a16d2cb27eb61a6640e8d82639cdaf3e3e62bc020a321d  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=438694d647c9bdb98fedf768a42d06411768cc0069cb24c2530af82bafc15b04  height=13  log2_work=4.8073549  tx=14  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(14tx)
+2022-04-18 11:37:48 AddToWallet cf29a5de4c9f0eccfa68eca27b2a4d5f92a09e2f50768235b96cee0e50fa99ac  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=643e9154ef3c574fbbf5636dc8c0a0a98d165ed02a6aa2a014c7db29eab2fc59  height=14  log2_work=4.9068906  tx=15  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(15tx)
+2022-04-18 11:37:48 AddToWallet d1eb7a79775865585d9a44a85af45543b869b06472b61f929f1263a36d96daff  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=44658700786709bd7695e68bdeb689ad5ed78e34c6a21ef35fd5cb0583ab0a0f  height=15  log2_work=5  tx=16  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(16tx)
+2022-04-18 11:37:48 AddToWallet 92733c6b8ffcb02dd937b723b6f9dd78c78af1e06699911aef60c03635bc2784  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=7a4854f8dd5ce840e48a271a36949b5c0e383e880880cf18fde1b6e70809bfa2  height=16  log2_work=5.0874628  tx=17  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(17tx)
+2022-04-18 11:37:48 AddToWallet f4659eaa1631256c39c43227cedb983225032691a749d72a52c8acb71f6bc2db  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=48af49fd246b5e7f5bb0065f5ec2f1fd2a359160938974b214314a01fd7c3cf7  height=17  log2_work=5.169925  tx=18  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(18tx)
+2022-04-18 11:37:48 AddToWallet 0ffa836ddabf0f2f2dc234e9a5b430a6c473e9c879e1f51ae85671ccbe4704d2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=28d2aa26df39eb5af5077a5575090579bdb3bfe3637826a0b6316fd8c85d27cd  height=18  log2_work=5.2479275  tx=19  date=2022-04-18 11:37:49 progress=1.000000  cache=0.0MiB(19tx)
+2022-04-18 11:37:48 AddToWallet 0a952e3a220ccff819327ed334fd837007e9a09bfee8a5d9a9b4674371bd8952  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=073e59bfef021e087f648e9216e35e5944733061884dff698cfa8dbce8270b24  height=19  log2_work=5.3219281  tx=20  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(20tx)
+2022-04-18 11:37:48 AddToWallet 0f92ef3b12996b93256cc4b4ec83dc39aacdb407f253d1c41a330fcc553a8582  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=65b65c88ad47eefa9226a8f845b6b0cf3e63f982caf9d35934d8de824a5a567d  height=20  log2_work=5.3923174  tx=21  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(21tx)
+2022-04-18 11:37:48 AddToWallet f38d8f62707211ab5b3a8b642bafa3bbba3cbe147c1ca091ef177b5e1b722e73  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=14853442210ba9ffd372c8da1167f087d790a93964ec88c8e7e5f3b2d5c5002f  height=21  log2_work=5.4594316  tx=22  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(22tx)
+2022-04-18 11:37:48 AddToWallet 4ce2393aba1107ac9842a1d746a3250a0fb8feaf2cdaf94d681e1c43be39c39c  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=39682fd7e4c1c74866f869fdc0d65eef69d90c94af7a67c2d01af822f6a1cfba  height=22  log2_work=5.523562  tx=23  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(23tx)
+2022-04-18 11:37:48 AddToWallet 6da81d32b2cc4817f06f6071f4d6e209e23444c7c8d3e0aefc4e70404d4376c6  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=576e05733f10ec5c3310a69f9dd7dc537a81968fcce79bcb1bb012b543c5631f  height=23  log2_work=5.5849625  tx=24  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(24tx)
+2022-04-18 11:37:48 AddToWallet 8d03a5e2e71d04870f3ba2788c79213ce1f453c9b524ad860a08fbd4e20c0dac  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=4a8aac602ad9703a8a0882367c99ef37482e9ca70eeed9e6adeb9aff38b14f65  height=24  log2_work=5.6438562  tx=25  date=2022-04-18 11:37:50 progress=1.000000  cache=0.0MiB(25tx)
+2022-04-18 11:37:48 AddToWallet 662548c7089df37194bee084964e3d65d7efdfde58d6b526165fa8eae52844ee  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=6307ab804b84813e7912ee6e6d4e750bf73e031e757d0700dbc64b2ed2ffb6e4  height=25  log2_work=5.7004397  tx=26  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(26tx)
+2022-04-18 11:37:48 AddToWallet 7574f4c107cd0b0758f5147ed893eda773fdef0ba61e4e4b46f8a4d94d51d17c  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=351ab640ee7935e8cc619266b332a797c3c5797d74bb352d4a59d1a9e10c3c91  height=26  log2_work=5.7548875  tx=27  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(27tx)
+2022-04-18 11:37:48 AddToWallet 2afadf3fe003c3a10a5f73a67308ea5d6500208e151f486302f3d81a758d6292  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=6b5d4bf1b2daae67f18ed00c1060cc08dea5d98a50c431e8ec97dfa288725704  height=27  log2_work=5.8073549  tx=28  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(28tx)
+2022-04-18 11:37:48 AddToWallet c74a7d8ffa9c2731795b8a52c1343e340b3c614dc276ae5bd0b98e9ffa3db4a2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=3c8e543e5bf9d57af3795739dc3867869a96a80e79361999afb90f6d7d5ea23e  height=28  log2_work=5.857981  tx=29  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(29tx)
+2022-04-18 11:37:48 AddToWallet 77995d86e00387c60ad3d82eb54046aa2a1e2e7d86be020c8150fef412526ddd  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=1bbd71a5196d75133041a1152f2c44e346fc30904317e3577a1aec2717882cb9  height=29  log2_work=5.9068906  tx=30  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(30tx)
+2022-04-18 11:37:48 AddToWallet fb807d7687344217f838e1028d4464a4d17aec080a03d7f721c842ebed5c3ed1  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=553675cb4c6a1edb00a356c88e444c456d6e5faceb221c009df2d06f02d940d0  height=30  log2_work=5.9541963  tx=31  date=2022-04-18 11:37:51 progress=1.000000  cache=0.0MiB(31tx)
+2022-04-18 11:37:48 AddToWallet 90c30302cd787cf9f3f257d5a5e971d54e0adf963fc40ae194fff8b34fa7ff4b  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=5024dc5309764d4b0dbdf6d3e77d9f35ceaa7c08dc08a7d29e0e9c6cb3951f95  height=31  log2_work=6  tx=32  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(32tx)
+2022-04-18 11:37:48 AddToWallet 2559d74326ade7c26b23b03d4762bbc0d640a770bd79e12358977557df764252  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=065841ccde1cbd54fece1b838be967670fcd3358847e9e1403bf84f042d12d5f  height=32  log2_work=6.0443941  tx=33  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(33tx)
+2022-04-18 11:37:48 AddToWallet 18ad31c48d95682e427b77f27957ddc46611846a5309c5c488f14b150f27334d  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=465b025de51dd1e7c723b87cc0a4077310953ac78cb1e96c15e274c712f8eb7e  height=33  log2_work=6.0874628  tx=34  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(34tx)
+2022-04-18 11:37:48 AddToWallet 9147eeac3545aeefe1fbe36f0b720122b6491b0a719b0510e2afd78397063240  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5fd294d0ec71c0fa978ff27f757a00d76db3589fa221abe80d45a3ca224ef893  height=34  log2_work=6.129283  tx=35  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(35tx)
+2022-04-18 11:37:48 AddToWallet bb2d945179880b1b934dc2da3f2bdeceefdb88c19e8039ebe8dcaa12d71803d6  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=0756665e8ffece7c3276c0f87a81282fe602a2a0bc7ae6daa6ff947f00e2a8ba  height=35  log2_work=6.169925  tx=36  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(36tx)
+2022-04-18 11:37:48 AddToWallet 6233bfbda45dda28129294fa352e6eac2fb3298c5903af90cca3e818e45ed90f  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=44257644a2d7e14f49ecc2bdcc2ab71e79a0780be7ead8c922d24d59debe1703  height=36  log2_work=6.2094534  tx=37  date=2022-04-18 11:37:52 progress=1.000000  cache=0.0MiB(37tx)
+2022-04-18 11:37:48 AddToWallet 5dd1bd32d44f56ab773c3ea7322d7d4f12ff93ca8d60224f73ff1fd6c4e9937c  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5a3a4541c03dab31f4d484ee716b29b26b43af52b6581482df6a6136af225314  height=37  log2_work=6.2479275  tx=38  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(38tx)
+2022-04-18 11:37:48 AddToWallet 413ce9aeb3ba32d3bf29560446557482ed88bc31ddb2048d5f188a45d73f8f2b  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=70f5f7c2467bddb6606069af7e2057531df0d2b584a9c462414c41f82498523d  height=38  log2_work=6.2854022  tx=39  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(39tx)
+2022-04-18 11:37:48 AddToWallet d7adcc0b6646f53835ef4c5e1c6cef67677dfbe8b1d2afa4d5a09df5465d4449  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=3f9be6ca64ef59a22b2c8e5e392eef2662eb04d8cf25ee8ec8db8a095d3c7811  height=39  log2_work=6.3219281  tx=40  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(40tx)
+2022-04-18 11:37:48 AddToWallet fd548e0dfdd235307ed484d11d7fca5e627c32e4d73fa2df87afc914789af6fb  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=09430acb5914c8aaa3b97c318c2e3d7a0cc435d52cf0f9ae948fd0b87aaa8350  height=40  log2_work=6.357552  tx=41  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(41tx)
+2022-04-18 11:37:48 AddToWallet 9cef86cdd0ebf7745d28eea3e2c500e1d148c05e29155313d8e91077b0a1df54  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=76876cdd244fdc282b1e5c4fbfb7bb2a72cf855ac0d72894dc16d76c253e459e  height=41  log2_work=6.3923174  tx=42  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(42tx)
+2022-04-18 11:37:48 AddToWallet 3fb403ce45cc849d7574b36ffc1b6500a1550051c65e1a99568ae41c3fab343d  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=0fa22bd8789e7c48ba56f13ea2857cd5f6e6ed82ac36a68b35d7032075f7fafe  height=42  log2_work=6.4262648  tx=43  date=2022-04-18 11:37:53 progress=1.000000  cache=0.0MiB(43tx)
+2022-04-18 11:37:48 AddToWallet ad0dda6b3415afa59f7388d48d61f73bd8613b0a858adbe08e0c3a11eb3c6608  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=6680b3e1f413d4f4811392f4fe923f006df2a423fa205b075a14414dffc05947  height=43  log2_work=6.4594316  tx=44  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(44tx)
+2022-04-18 11:37:48 AddToWallet 5a735fde5b4029fd09e1301afd0b7955b6c7febda583d7111d70c028db33dc25  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=0dd79f934830438b596e84aae059374c0b7eec95583545a2763a0ee914a10bac  height=44  log2_work=6.4918531  tx=45  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(45tx)
+2022-04-18 11:37:48 AddToWallet b3e226f369fb3456465271b4572dbbb7bc4ec5909f6dd8824090b64220b5aa72  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=4b52e9fa72762363286e2d04f6fd68e3605492bba476123d7b58e1bcf5dc9743  height=45  log2_work=6.523562  tx=46  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(46tx)
+2022-04-18 11:37:48 AddToWallet 9a370e74d6d12fada367ce36b494f38f41cfd80e05f5490e6278c169ab97bbe2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=486a7b2b9607f441d4a1d39ac85eabb2388512b2efa63c58f8b42acdf958880a  height=46  log2_work=6.5545889  tx=47  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(47tx)
+2022-04-18 11:37:48 AddToWallet 4586084db91dbec884410b5631adf16d6b3cd0a7424aaca725d8ebeae1ed1703  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=3f35fec1caf684568388353aee20909a3e638139f6cbc99f18aae2bb344e1834  height=47  log2_work=6.5849625  tx=48  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(48tx)
+2022-04-18 11:37:48 AddToWallet 4538e4192c8a41f0f3919a4761373b90c24ef8f977cfde9f359a3e3720325935  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=6baa78cd8ff92debd52a831b8c2dc59d9b9961127d99e1b72249dbbfe61ae109  height=48  log2_work=6.6147098  tx=49  date=2022-04-18 11:37:54 progress=1.000000  cache=0.0MiB(49tx)
+2022-04-18 11:37:48 AddToWallet 008c99e6e024340129d0d9510bdb2f48d1602bf5df2c762b20b1c9b130f1c153  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=2460ce6c36a65a30f1e22d3e8216cd772da874a7aee3afbd4cb12d1edfd4e8fc  height=49  log2_work=6.6438562  tx=50  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(50tx)
+2022-04-18 11:37:48 AddToWallet c3b247c59861be336db1e27932ad892c627b1a4a4c283ec9123cc6c5e2e92d7e  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=06442bc975951b987b05ede8cfa8481b8cd2b8174db0c97ed1b9ec7580e9a1c6  height=50  log2_work=6.6724253  tx=51  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(51tx)
+2022-04-18 11:37:48 AddToWallet af0d5dbfe30e59c370ccb254bad44030ecfca6899f0529673e110a0221fd67c1  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=24640760febca2549c0a0685fc212e175df037a40e94848b38911d8311eea93c  height=51  log2_work=6.7004397  tx=52  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(52tx)
+2022-04-18 11:37:48 AddToWallet 582f0c9c3a2c4d274fb5e64f17b0631a81bc3fb168ed9c6bd270ceb5fd0c2c44  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=28b7613c2c004b65ae4f825a09032ea56466a30255a12fa9f26b3969af73f7fa  height=52  log2_work=6.7279205  tx=53  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(53tx)
+2022-04-18 11:37:48 AddToWallet 03b553b09047eb4ed8fd56e52be30ada9ed85397db411238267d0c6f49811fd3  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=4dbb753d4382dd71c009934d7350179009c5ba38e815e20afbb0495537f01f3d  height=53  log2_work=6.7548875  tx=54  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(54tx)
+2022-04-18 11:37:48 AddToWallet 1d74781ac39be497c9bccfa7515bf6d9fddfac12229f757d1b208cc75dff2a6a  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=47292a49d301214fae248e9955475e763e9ca5ee53b8f7208b4041a1b84201ec  height=54  log2_work=6.7813597  tx=55  date=2022-04-18 11:37:55 progress=1.000000  cache=0.0MiB(55tx)
+2022-04-18 11:37:48 AddToWallet cab6f2a8615c77ebfde372395116a0fed38ff894faaf9a12a5f017fdb07c258d  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=067d6930172883a99449635d1d410c5f240d13feb462dbea4016cf43e2c9924e  height=55  log2_work=6.8073549  tx=56  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(56tx)
+2022-04-18 11:37:48 AddToWallet 62b9d1464433e7d87bba815a0e755368ea64cd71d2f1ef4f0e1c6ae2b53c9a75  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=6ed8faed1e9684448e3fd48cb917f2f73c2702467e0a2dcaaf05c04584b7cef4  height=56  log2_work=6.83289  tx=57  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(57tx)
+2022-04-18 11:37:48 AddToWallet e461bc31cd9d684592d8e05cf9c3e9fddce199cf41b3be338867687b8c859e7e  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5dfdc425b06304a0d9e44dc426b6fbe364d9595fb8624a20c68f4ccd2e7ea58a  height=57  log2_work=6.857981  tx=58  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(58tx)
+2022-04-18 11:37:48 AddToWallet e33d112ec5b247859254283176e05a877f11d92a3bda537c80f1c04abdcab21a  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=126e6e74d102091f76f2f07ba9f9f054c13afe065fa5de5475b0476d2da24000  height=58  log2_work=6.882643  tx=59  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(59tx)
+2022-04-18 11:37:48 AddToWallet b6b50bdaa863ce57773b91fc64f1718a60ea4d4c486092a3a791ef3c37d06b4a  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=39a72d7ad6afc458d1630caa8f64266e5b364477207252147dcd7ba105c0478b  height=59  log2_work=6.9068906  tx=60  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(60tx)
+2022-04-18 11:37:48 AddToWallet 3e0e83bfc5b6289866c044990d9a341a5f6be69f98a4cfc79dc96b22aa173a16  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=30fcba1d01d0561d54b313ba89dcd60f9852f0c3d8859219d837c56d83488501  height=60  log2_work=6.9307373  tx=61  date=2022-04-18 11:37:56 progress=1.000000  cache=0.0MiB(61tx)
+2022-04-18 11:37:48 AddToWallet b9cfbe910b30686aa6dbfe13acf8c7f45bcd9abd09edddd1497ee87f393739fd  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=0011da3a07b09a982e9d3579c5436260dc8432a52b0781033430410df42eee12  height=61  log2_work=6.9541963  tx=62  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(62tx)
+2022-04-18 11:37:48 AddToWallet c82f380cb6e6a717e6a23f24c6b55a61694902c6a673b3b1da97b57a298ef3f8  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=1f9c19f4f2e456adc7d6415daa185942d15529137528a96bb394b4011cf2f5cc  height=62  log2_work=6.9772799  tx=63  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(63tx)
+2022-04-18 11:37:48 AddToWallet a1f70bf53f0f7a57bd63a5a9238ce06f2b15b02cf09ff28dc6f430706cee0442  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5783e948b9724690978d00873e972ac08b5abae8bf1c7af5e20fd5dd9343f64e  height=63  log2_work=7  tx=64  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(64tx)
+2022-04-18 11:37:48 AddToWallet 5ad9989bf0e39f14a408be35179c75016974215e722fe4cb740f8ffcd11d7280  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=42d0bf4a04b6711dadc389a43853c03d18e4f4a9e6e90dbbbf88576b73a9a224  height=64  log2_work=7.0223678  tx=65  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(65tx)
+2022-04-18 11:37:48 AddToWallet 7ec9c1c96d555452691c056fd2baecaa385a69f3acf1c57a77dd2aaf3e731ded  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=10efcf76889388697c93b58b409392779bcb65d368d89eb94d2b9906b9abf55b  height=65  log2_work=7.0443941  tx=66  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(66tx)
+2022-04-18 11:37:48 AddToWallet df581a9abf412b16c8cae17b5ca93119d95680aa347d338325d58c83ea1a5e9d  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=139e65f975056b5d4d25175f11bad8d71f212869624f64e34d8d687ebfc0dcd0  height=66  log2_work=7.0660892  tx=67  date=2022-04-18 11:37:57 progress=1.000000  cache=0.0MiB(67tx)
+2022-04-18 11:37:48 AddToWallet 950fbb507504d2e740a25263d202443f6e62ee7b4927f99ae2ae038dd9854c6f  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=42d0e75ce197856549c1750337b5cffe925586305a5ee8bd311cd6fd49e4e044  height=67  log2_work=7.0874628  tx=68  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(68tx)
+2022-04-18 11:37:48 AddToWallet bd704e9e18ffe3577a9ec006d9c3d364da9617b1cc86c1c264285fc96a9d3c8a  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=2f86233e8045f73f4e56411a2fac9d5b8640165e4faed2ecaa9e2441fff09220  height=68  log2_work=7.1085245  tx=69  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(69tx)
+2022-04-18 11:37:48 AddToWallet 5235d4a353b5d7520c373b138620a2b233f331ad9516dae75d143e9d117057ea  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=29e2baef83793eea16423e3c611d596742644c72c75222b60dff7292c7a9e7b6  height=69  log2_work=7.129283  tx=70  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(70tx)
+2022-04-18 11:37:48 AddToWallet 8d878c0313c59c25df7914c5e777faa3e3a51634fc4b72ed3d9c581307bf481f  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=679fc0a6afdb6d7d76ea6119035601c48d026bea9c351f099e50e8884b31953b  height=70  log2_work=7.1497471  tx=71  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(71tx)
+2022-04-18 11:37:48 AddToWallet 8e97d117f6c805a9bb3820aa9ddfccfb49f12d6105206468d98a68a2fecfbf67  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=0992f52c3dd8097b62a66b9936b5176f780eb622083f10d5676c2ae90bb65b7d  height=71  log2_work=7.169925  tx=72  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(72tx)
+2022-04-18 11:37:48 AddToWallet e80e99ef9a785b2531de0394f07bb5cd70597b06aebe987f32d21df68b7966b8  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=52d1478f0c7d250c2f003bc4ead6959ae60eea3b6c0ec5c3821042dc9e478a9d  height=72  log2_work=7.1898246  tx=73  date=2022-04-18 11:37:58 progress=1.000000  cache=0.0MiB(73tx)
+2022-04-18 11:37:48 AddToWallet e5985fb2074895c0fae4978f9017fae2181b8e9a332f2e42a59bbac0e13ae0c4  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=1756bac3778544d75ee0bf3be0a29fb7195080605f6f22fb5729c3224ae94ca0  height=73  log2_work=7.2094534  tx=74  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(74tx)
+2022-04-18 11:37:48 AddToWallet 5c34068d2a7460cf5b2308f34d4654dcda5c6272b50f1ef8fbf896028c6c18a4  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=553260e40c1b71de1ff8ac11e418dae2196b5c82d3698471c09df993d55edf07  height=74  log2_work=7.2288187  tx=75  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(75tx)
+2022-04-18 11:37:48 AddToWallet ad1cc8717250458edbf9fd5c27acbb18ae769dc603fed5b3efb7e929322eeead  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=3da6860decf594d66dc412e08831e344f6ae12d10696f9c4f139d723644f7ea0  height=75  log2_work=7.2479275  tx=76  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(76tx)
+2022-04-18 11:37:48 AddToWallet 51a0f27995451eec6b3e544908004365e7badcd82c9e6ecd79f711ae0db415a2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=1d0384d8c69cb89f893fb3762f9b1b69973e350acead4c001ea18d949fa749e6  height=76  log2_work=7.2667865  tx=77  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(77tx)
+2022-04-18 11:37:48 AddToWallet f6055e795e99d9161444de5259d18f720f9ac3d7ecfceefa774c3ec4e6eab063  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=6f76405028e0c82b00b98c9c85ae526b7e429fd1d11f2c1196be83bef119044a  height=77  log2_work=7.2854022  tx=78  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(78tx)
+2022-04-18 11:37:48 AddToWallet 0cd2059f5aa6dadcbaf4612172949baa7bd5b1bbfcb34205c5efc767453e7a84  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=63cc2a7e1157c5997eaa856fb1631e815de0cb0a409438093452a276d56b9d06  height=78  log2_work=7.3037807  tx=79  date=2022-04-18 11:37:59 progress=1.000000  cache=0.0MiB(79tx)
+2022-04-18 11:37:48 AddToWallet 82e6be60ce41f2ebebe834fdb9947289b4aeaf6329f8bcfba7d7a9bcf0e77ff5  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=04edffa3c71b274e5bfecc08d75575f99c5f60b8a8338c28335722d6b7679124  height=79  log2_work=7.3219281  tx=80  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(80tx)
+2022-04-18 11:37:48 AddToWallet 49e56b0f6e48e67df2e72a56fc6938c6d4fadd30acaa0592d210944ecd7ac084  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=38167f3c2801b44c23a04934ebfd66003a89a7fc999dce738f2faf983848c550  height=80  log2_work=7.33985  tx=81  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(81tx)
+2022-04-18 11:37:48 AddToWallet 8e0dca777c0283880599752532d372ab598e888f472a495cee491063c3f8f9eb  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=3156693131156a4e0504865f9f6377ef6f439fb7bb0f1a3e792191ba7eafb123  height=81  log2_work=7.357552  tx=82  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(82tx)
+2022-04-18 11:37:48 AddToWallet f2632b34de3385dba73fe3dbe99116018dc7dda8c319aae64e1204d3fa1e5f27  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=7d2da6a93d4bff7e680243158b337adf5a884a244d666a2050209446e80c4c43  height=82  log2_work=7.3750394  tx=83  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(83tx)
+2022-04-18 11:37:48 AddToWallet 908f78352f37eb6119fafca2d945a674c7ea2630ebc2079351de6c00330af214  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=2c61264e925cbe8804b8031869ae82210b98cbf345dd1098523033eae3f2f082  height=83  log2_work=7.3923174  tx=84  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(84tx)
+2022-04-18 11:37:48 AddToWallet b11858d3495860c6fd93e198e68cd6dc1c1def5b788f71f2f0c0df4792de5213  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5eb3e08c49c5ba06300bf19766e38e6791a83af579af4f1a24f5b1b7e3d37746  height=84  log2_work=7.4093909  tx=85  date=2022-04-18 11:38:00 progress=1.000000  cache=0.0MiB(85tx)
+2022-04-18 11:37:48 AddToWallet 4f0da877a07082914a9ec566b7951fcdc663e56ddc32dab5f3b34b337664f3ff  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=5a87153772772cbab8cfbbeb4d39d8184821aa3800dfc7a5f2f8f53bda48e951  height=85  log2_work=7.4262648  tx=86  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(86tx)
+2022-04-18 11:37:48 AddToWallet 4eb5a1130dac90c474e0e4b0cf5e0556cc1c0de9c9d03d598ae917035fc1747e  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=290b8bb3d8097af07e61fcc0de46fdee24f75c745eeb88a2e74d27cf22a64d71  height=86  log2_work=7.4429435  tx=87  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(87tx)
+2022-04-18 11:37:48 AddToWallet 4d5372796c825846fe90859150c518172c1d0731b838d29d8d997f4e3c176dc2  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=69a90ba1ef76db960d18fbb74b050ac3ae56e656d6983e2d891374ecc51bde24  height=87  log2_work=7.4594316  tx=88  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(88tx)
+2022-04-18 11:37:48 AddToWallet 4efc71b8ac0361e80f420b06dacbaa3e8f188a60b42c4ed95393121700c0e6b4  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=7e2be5e230e160ba7c6fc04c7c8be6e47e780838e25945f0916e8f9a992db289  height=88  log2_work=7.4757334  tx=89  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(89tx)
+2022-04-18 11:37:48 AddToWallet e1a182e7baf03d356e0f9275407240d6e075f277993c96955a08c70d31be4200  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=465d5b7879cb38ee06e69ebefd0b9b60759b29c0cca1e2f46ec39023249cda6d  height=89  log2_work=7.4918531  tx=90  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(90tx)
+2022-04-18 11:37:48 AddToWallet 535ce0e0fcf9ba1c36874390e4b6c89743459703401ee37b838f570c03503d1a  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=413027017b9b3b77bf7e4fe28733bb0cefac5a3e454cdbafc7fd3980ae488ba7  height=90  log2_work=7.5077946  tx=91  date=2022-04-18 11:38:01 progress=1.000000  cache=0.0MiB(91tx)
+2022-04-18 11:37:48 AddToWallet ac3e2883524fd275f1ae4400e2f6fea511187547ebd4702231f0e9ffc63e3fa8  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=48e8f1225364217de0decfad0966f30cf692246fcab03688ae50b05e7bd63ce7  height=91  log2_work=7.523562  tx=92  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(92tx)
+2022-04-18 11:37:48 AddToWallet 76b9820991b80e0b55460e5e38f693963431582401979577fda2e80678a91660  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=6cb8a06c0e48a3395aae6cd9c6c70759956db6853d0550fae177f41fffd584b5  height=92  log2_work=7.5391588  tx=93  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(93tx)
+2022-04-18 11:37:48 AddToWallet c463fc354740171a33a752515cf602fdb93e71072cca8337686df5952b92c3c5  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=0c60c79b16cb5fe0733c72bd9a2a0a6bf7dbbb5139663bc3ff30108d806324e7  height=93  log2_work=7.5545889  tx=94  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(94tx)
+2022-04-18 11:37:48 AddToWallet 0a6de03446b856278e66c686db8a79ae359e1ba6cadf644e0872ade3f2d5556b  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=51aa0dfb2b3246ad1a3dbe060e3839feb909ef91117171316a8f93ef3637f4e6  height=94  log2_work=7.5698556  tx=95  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(95tx)
+2022-04-18 11:37:48 AddToWallet 15b385961d5abe8234fd6ed310e77b53407422ea20910406218974ec59d9ae2b  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=07684749aec0ac4797e892b1dbb7700a06e48c8e74dba74b70dc3262683b5061  height=95  log2_work=7.5849625  tx=96  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(96tx)
+2022-04-18 11:37:48 AddToWallet 83531a129f35e85da911fc167ac494729f75a40bc6ccae650c58675194edc5f8  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=540f9e5e73cc8dc472891daf80517dd73e2c522bfc6c421d7bc7fde5900ebbaf  height=96  log2_work=7.5999128  tx=97  date=2022-04-18 11:38:02 progress=1.000000  cache=0.0MiB(97tx)
+2022-04-18 11:37:48 AddToWallet 89d9d485b412ab4e7530127bdaf417e7fb5d22bde44c9a3dc1c4af9fb4d6b6fe  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=1f7cc006c0261fd6a98bf4a7f45dc3e96a251e02164d320784e1ea82215b2a61  height=97  log2_work=7.6147098  tx=98  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(98tx)
+2022-04-18 11:37:48 AddToWallet 85b81475be9a59bc7c3a332532ffe5135fbb833ed8207f69f1ca6942f530b31b  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=431b802ab928d908d943e1bf686472c5544b47d6cc06a2ac759daaa469c833a7  height=98  log2_work=7.6293566  tx=99  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(99tx)
+2022-04-18 11:37:48 AddToWallet cf5f1aa2a19091e6f1a5f4c91cfab74e16e172e45498435796ccdc975e26b473  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=231cecb6a3b0e4454f40c7031e7bd38375a8ae16bc46fc487df751ac596e134f  height=99  log2_work=7.6438562  tx=100  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(100tx)
+2022-04-18 11:37:48 AddToWallet 4c8c7d1d000be645cf4572e131f9dad3c052f061b56f87c6135f9f2d47f24011  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=5eff746adb3ec5c922ee9b5e861632c31e432d57ce2a782b4596e54b91ea457c  height=100  log2_work=7.6582115  tx=101  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(101tx)
+2022-04-18 11:37:48 AddToWallet 36456af5089d4ac20b053e02683a07d20e9cd2099b3585626a1baefa4b942863  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=10402d7d302643f5482433bb498876367c5a35bba9ab2aacf31522f4bc2229c0  height=101  log2_work=7.6724253  tx=102  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(102tx)
+2022-04-18 11:37:48 AddToWallet 2b41008b0cde7666d8e9c2bbd18d84b903a842802e93d1edba7a57de6b320338  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=4f6f3459001289c0f50c6017c73cc2072540b7b07978dcd9b079d264406498d2  height=102  log2_work=7.6865005  tx=103  date=2022-04-18 11:38:03 progress=1.000000  cache=0.0MiB(103tx)
+2022-04-18 11:37:48 AddToWallet 8b1a6a937ab3d6412ec7a36ee6dfc61d0f434f229a2ff1439f3f353387094b2e  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=2cb2ef319926f5d7605279e3b0edabc5ede68e5c54e1f71bedaa8026b48385eb  height=103  log2_work=7.7004397  tx=104  date=2022-04-18 11:38:04 progress=1.000000  cache=0.0MiB(104tx)
+2022-04-18 11:37:48 AddToWallet 214a34f99707041dc71ed9ceb80df4f0e04e21707b667b9e5f087f5dd0ba3488  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=2195b4dc9ec3ffec798491ab1f86084f60f07c16a492ed989d5edf345ca46668  height=104  log2_work=7.7142455  tx=105  date=2022-04-18 11:38:04 progress=1.000000  cache=0.0MiB(105tx)
+2022-04-18 11:37:48 AddToWallet dcb22a52a9f1338d396924de61de947a7ab142acd28ba6c1ee36d267cfedc18c  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 UpdateTip: new best=283d1ce01b9ea356ca16d4356f3e121eb3a4f5fea949b18d178b980b8d321cc2  height=105  log2_work=7.7279205  tx=106  date=2022-04-18 11:38:04 progress=1.000000  cache=0.0MiB(106tx)
+2022-04-18 11:37:48 AddToWallet 81067b27a0e9b97a4bc9b032fe64c9fbf78c7d3a0568dfe1f638a4ea4c1a712e  new
+2022-04-18 11:37:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:37:48 UpdateTip: new best=74eac5258eacaea5eb809f4093aaf7bc773ef573bdbb2c021706215695440c3b  height=106  log2_work=7.741467  tx=107  date=2022-04-18 11:38:04 progress=1.000000  cache=0.0MiB(107tx)
+2022-04-18 11:37:48 AddToWallet 28020fa20be5e9b32f7eb0328bf4e2682eb3ab161c06300cc15da9fc174e0326  new
+2022-04-18 11:48:49 keypool added key 108, size=101
+2022-04-18 11:48:49 keypool reserve 8
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 UpdateTip: new best=4c691166abaf248e9ec248f35b45391e0b8beefd240439eb3073e77986d7a3ac  height=107  log2_work=7.7548875  tx=108  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(108tx)
+2022-04-18 11:48:49 AddToWallet d9d15e5296cc020f9d5e7418b857e9f28c8621a64be56b3cf9a9a40175f1510f  new
+2022-04-18 11:48:49 keypool keep 8
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 UpdateTip: new best=3f3bd8bc7d9e6fb165c28e5f1c2ab0abb5879983c8c2e8eecbda31ae3ea348b5  height=108  log2_work=7.7681843  tx=109  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(109tx)
+2022-04-18 11:48:49 AddToWallet a20110764d32e54e8ea01ddf21a61c9fdd1661ad2ef67ac75847a119ba0a77d9  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 UpdateTip: new best=471f643e7d832f0514e3ce2558ec8be3aa62af84d803c005f1c96a07724793aa  height=109  log2_work=7.7813597  tx=110  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(110tx)
+2022-04-18 11:48:49 AddToWallet efff5224140510c34f73d5088242a791008237736bf7599dfb0ff91fb02fb22f  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 UpdateTip: new best=4f6c18a3ab54f7e17a7bcb0299e62f0bf2e154332eb57356d5f8759e477fb3c4  height=110  log2_work=7.7944159  tx=111  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(111tx)
+2022-04-18 11:48:49 AddToWallet 8204cae135be947a680c09027b3ffb3fc7b77f4ccc5fcd144ca5e6d6e36e1763  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 UpdateTip: new best=32c7360a3350ee053748ef3586756820a852c06b1971a3eb85cd01bbcdae557b  height=111  log2_work=7.8073549  tx=112  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(112tx)
+2022-04-18 11:48:49 AddToWallet a615e8e420127c5fee8604d03e50aeba636fa4531828066da1852d3b10d30bcc  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 UpdateTip: new best=21b1d6df97c6e5d5497bcb90d1a8ef9ce8c318f2e72960f2502a129541a3f325  height=112  log2_work=7.820179  tx=113  date=2022-04-18 11:48:49 progress=1.000000  cache=0.0MiB(113tx)
+2022-04-18 11:48:49 AddToWallet be8ecc3027a42e64d257cd1ae6657d92a8617dbdde5454f820d154663ee35e9e  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 UpdateTip: new best=4364096f932a190a30f93355dc20ca527dd34181cb37e37a199e2ecd21a20c32  height=113  log2_work=7.83289  tx=114  date=2022-04-18 11:48:50 progress=1.000000  cache=0.0MiB(114tx)
+2022-04-18 11:48:49 AddToWallet 0a7016d49161dbbf798a2414365298ab14f8c2c136885bfb1b089976ef818646  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 11:48:49 UpdateTip: new best=74e7129fe143ededbe1c19b7f6b1838021d3d28dce8ccd9f6b3c93575dc41bbe  height=114  log2_work=7.8454901  tx=115  date=2022-04-18 11:48:50 progress=1.000000  cache=0.0MiB(115tx)
+2022-04-18 11:48:49 AddToWallet 2c9a1f46b26835bed7cfd21c30b7d2002c1f65d3613ed66cf7d757ed2bbae78d  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 UpdateTip: new best=0c33180081559d0a06b42ee48d35ec01a327032ee9df40a83c68af6f54ea6547  height=115  log2_work=7.857981  tx=116  date=2022-04-18 11:48:50 progress=1.000000  cache=0.0MiB(116tx)
+2022-04-18 11:48:49 AddToWallet e69151cdad741c1f9822e02a8acf21e4765381a05f71ba35e652946d1054426e  new
+2022-04-18 11:48:49 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 11:48:49 UpdateTip: new best=7e55e411becdc2f6878028d84e308b1e758a1ef696bd3da312fd49f53d8fba5d  height=116  log2_work=7.8703647  tx=117  date=2022-04-18 11:48:50 progress=1.000000  cache=0.0MiB(117tx)
+2022-04-18 11:48:49 AddToWallet 5c42288ec820dad95c44b9384160a6346c408ed5aba3a9b64dc152e3df4afc19  new
+2022-04-18 11:55:45 keypool added key 109, size=101
+2022-04-18 11:55:45 keypool reserve 9
+2022-04-18 11:55:45 keypool keep 9
+2022-04-18 11:57:07 keypool added key 110, size=101
+2022-04-18 11:57:07 keypool reserve 10
+2022-04-18 11:57:07 keypool return 10
+2022-04-18 12:09:52 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 12:25:48 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-18 12:25:48 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-18 12:25:48 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-18 12:25:48 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-18 12:25:48 Default data directory /home/mojiu/.bitcoin
+2022-04-18 12:25:48 Using data directory /home/mojiu/bitcoin/bitcoinconf/Cory/regtest
+2022-04-18 12:25:48 Using config file /home/mojiu/bitcoin/bitcoinconf/Cory/bitcoin.conf
+2022-04-18 12:25:48 Using at most 125 connections (1024 file descriptors available)
+2022-04-18 12:25:48 Using 6 threads for script verification
+2022-04-18 12:25:48 scheduler thread start
+2022-04-18 12:25:48 HTTP: creating work queue of depth 16
+2022-04-18 12:25:48 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-18 12:25:48 HTTP: starting 4 worker threads
+2022-04-18 12:25:48 Using wallet wallet.dat
+2022-04-18 12:25:48 init message: Verifying wallet...
+2022-04-18 12:25:48 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/db.log
+2022-04-18 12:25:48 Bound to [::]:18333
+2022-04-18 12:25:48 Bound to 0.0.0.0:18333
+2022-04-18 12:25:48 Cache configuration:
+2022-04-18 12:25:48 * Using 2.0MiB for block index database
+2022-04-18 12:25:48 * Using 32.5MiB for chain state database
+2022-04-18 12:25:48 * Using 65.5MiB for in-memory UTXO set
+2022-04-18 12:25:48 init message: Loading block index...
+2022-04-18 12:25:48 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index
+2022-04-18 12:25:48 Opened LevelDB successfully
+2022-04-18 12:25:48 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index: 0000000000000000
+2022-04-18 12:25:48 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate
+2022-04-18 12:25:48 Opened LevelDB successfully
+2022-04-18 12:25:48 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 12:25:48 LoadBlockIndexDB: last block file = 0
+2022-04-18 12:25:48 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=2, size=480, heights=0...1, time=2011-02-02...2022-04-18)
+2022-04-18 12:25:48 Checking all blk files are present...
+2022-04-18 12:25:48 LoadBlockIndexDB: transaction index disabled
+2022-04-18 12:25:48 LoadBlockIndexDB: hashBestChain=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9 height=1 date=2022-04-18 11:14:39 progress=1.000000
+2022-04-18 12:25:48 init message: Verifying blocks...
+2022-04-18 12:25:48 Verifying last 1 blocks at level 3
+2022-04-18 12:25:48 No coin database inconsistencies in last 1 blocks (1 transactions)
+2022-04-18 12:25:48  block index              11ms
+2022-04-18 12:25:48 init message: Loading wallet...
+2022-04-18 12:25:48 nFileVersion = 120100
+2022-04-18 12:25:48 Keys: 110 plaintext, 0 encrypted, 110 w/ metadata, 110 total
+2022-04-18 12:25:48  wallet                    4ms
+2022-04-18 12:25:48 init message: Activating best chain...
+2022-04-18 12:25:48 mapBlockIndex.size() = 2
+2022-04-18 12:25:48 nBestHeight = 1
+2022-04-18 12:25:48 setKeyPool.size() = 101
+2022-04-18 12:25:48 mapWallet.size() = 116
+2022-04-18 12:25:48 mapAddressBook.size() = 2
+2022-04-18 12:25:48 init message: Loading addresses...
+2022-04-18 12:25:48 torcontrol thread start
+2022-04-18 12:25:48 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/banlist.dat
+2022-04-18 12:25:48 Invalid or missing banlist.dat; recreating
+2022-04-18 12:25:48 Loaded 0 addresses from peers.dat  0ms
+2022-04-18 12:25:48 AddLocal([2408:842e:cb0f:8a37:b60f:e97a:cbcc:6673]:18333,1)
+2022-04-18 12:25:48 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:b60f:e97a:cbcc:6673
+2022-04-18 12:25:48 AddLocal([2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333,1)
+2022-04-18 12:25:48 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83
+2022-04-18 12:25:48 init message: Done loading
+2022-04-18 12:25:48 dnsseed thread start
+2022-04-18 12:25:48 addcon thread start
+2022-04-18 12:25:48 opencon thread start
+2022-04-18 12:25:48 net thread start
+2022-04-18 12:25:48 msghand thread start
+2022-04-18 12:25:48 Loading addresses from DNS seeds (could take a while)
+2022-04-18 12:25:48 0 addresses found from DNS seeds
+2022-04-18 12:25:48 dnsseed thread exit
+2022-04-18 12:25:48 BitcoinMiner started
+2022-04-18 12:25:48 keypool reserve 10
+2022-04-18 12:25:48 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:25:48 Running BitcoinMiner with 1 transactions in block (179 bytes)
+2022-04-18 12:25:48 BitcoinMiner:
+2022-04-18 12:25:48 proof-of-work found  
+  hash: 0000adbe8a604d8dc8220e083f7ba47432832c858934a19041d58767021bea2e  
+target: 7fffff0000000000000000000000000000000000000000000000000000000000
+2022-04-18 12:25:48 CBlock(hash=0000adbe8a604d8dc8220e083f7ba47432832c858934a19041d58767021bea2e, ver=536870912, hashPrevBlock=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9, hashMerkleRoot=04d5674ec66184c63b12ec7c53b627de36fde426f4305afabdfdfd74e16e21e6, nTime=1650284748, nBits=207fffff, nNonce=93844, vtx=1)
+  CTransaction(hash=04d5674ec6, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 520101)
+    CTxOut(nValue=50.00000000, scriptPubKey=210323448a3b8583d109cc4b0519e2)
+
+
+2022-04-18 12:25:48 generated 50.00
+2022-04-18 12:25:48 UpdateTip: new best=0000adbe8a604d8dc8220e083f7ba47432832c858934a19041d58767021bea2e  height=2  log2_work=2.5849625  tx=3  date=2022-04-18 12:25:48 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 12:25:48 AddToWallet 04d5674ec66184c63b12ec7c53b627de36fde426f4305afabdfdfd74e16e21e6  new
+2022-04-18 12:25:48 keypool keep 10
+2022-04-18 12:25:48 BitcoinMiner terminated
+2022-04-18 12:25:54 receive version message: /Satoshi:0.12.1/: version 70012, blocks=2, us=0.0.0.0:0, peer=1
+2022-04-18 12:25:54 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 12:25:54 UpdateTip: new best=000044d9ebfa03447da7e1c603bfba2c98a541c40c77bdcf1805ee14a32506c9  height=1  log2_work=2  tx=2  date=2022-04-18 11:14:39 progress=1.000000  cache=0.0MiB(0tx)
+2022-04-18 12:25:54 AddToWallet 04d5674ec66184c63b12ec7c53b627de36fde426f4305afabdfdfd74e16e21e6  
+2022-04-18 12:25:54 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206  height=0  log2_work=1  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 12:25:54 AddToWallet e2281d19f60e6dc3349dd8d2b5b9beea6ae96930dadbd53f04d4f2ae07a0adfb  
+2022-04-18 12:25:54 UpdateTip: new best=00000292c2691443bdb0ff0600b5a57988c6de8f60549ce603020767a075d6bb  height=1  log2_work=2  tx=2  date=2022-04-18 11:06:25 progress=1.000000  cache=0.0MiB(2tx)
+2022-04-18 12:25:54 AddToWallet 6e950d8bc04b1a6d60bb684f3c5a1d8a99498a55da6a8039e81132f99e71c7aa  
+2022-04-18 12:25:54 UpdateTip: new best=00004ac266db498835b2262859b3e559f529b6e52d69096b8e73a26a1a2097f8  height=2  log2_work=2.5849625  tx=3  date=2022-04-18 11:07:45 progress=1.000000  cache=0.0MiB(3tx)
+2022-04-18 12:25:54 UpdateTip: new best=0000dea659b74609c88aad343ab759b5833a068a19d62c079be98610f397b07b  height=3  log2_work=3  tx=4  date=2022-04-18 12:25:54 progress=1.000000  cache=0.0MiB(4tx)
+2022-04-18 12:26:01 receive version message: /Satoshi:0.12.1/: version 70012, blocks=0, us=0.0.0.0:0, peer=2
+2022-04-18 12:26:01 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 12:26:49 Adding fixed seed nodes as DNS doesn't seem to be available.
+2022-04-18 12:29:11 keypool added key 111, size=101
+2022-04-18 12:29:11 keypool reserve 11
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=0b3edeaf583761df882cd3ed360f96ee1605ee4b6d617cbb54d61b5c20788170  height=4  log2_work=3.3219281  tx=5  date=2022-04-18 12:29:11 progress=1.000000  cache=0.0MiB(5tx)
+2022-04-18 12:29:11 AddToWallet 37a4d963105b8160e5618c174dd62a5273b441effdbdb11070ba53c851becbee  new
+2022-04-18 12:29:11 keypool keep 11
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1f9ced50ce38f3d73186b7dc18d56df64b7acc832cc174055b7eac521aba88fd  height=5  log2_work=3.5849625  tx=6  date=2022-04-18 12:29:11 progress=1.000000  cache=0.0MiB(6tx)
+2022-04-18 12:29:11 AddToWallet 1ff67648ff9bda1bedbb677da94c62520755acf113e83d0173128995fa9508c0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=489e72d3346e309c86d36d8f3edd6294f56e213702d9bc566fb6ee7f3f4974a6  height=6  log2_work=3.8073549  tx=7  date=2022-04-18 12:29:11 progress=1.000000  cache=0.0MiB(7tx)
+2022-04-18 12:29:11 AddToWallet 975a2d4c0278311626e68e57058a124ae18c292d9c47b29932b392f2f712937b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=555681d08c973598e3df1e316117cfa3611fd4f1828f3d3687c796d528534081  height=7  log2_work=4  tx=8  date=2022-04-18 12:29:11 progress=1.000000  cache=0.0MiB(8tx)
+2022-04-18 12:29:11 AddToWallet d4afa659e91d4cc48d9219f55449372c8b4834df6a9fe47ee59a3996673f44de  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=2b7336b2048d59f29af59432023f6af2e6c2c4cda99d10d01275ebabb3faff15  height=8  log2_work=4.169925  tx=9  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(9tx)
+2022-04-18 12:29:11 AddToWallet e1bf268fd292c960a7ff3881386f758b37af712b0a507110beb198f17f96be61  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=5b2b62615c6cc4c80d7328ed973edc71186f1a61ae5391837a5ef2aec1fa9dc8  height=9  log2_work=4.3219281  tx=10  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(10tx)
+2022-04-18 12:29:11 AddToWallet 977ee34f90685ac096b83c28fc171bdc3720264c0ef031b414192454db772726  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=5711e836fded74682d329a13c69aa9e417b89386896fa17932ce4f99f500da99  height=10  log2_work=4.4594316  tx=11  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(11tx)
+2022-04-18 12:29:11 AddToWallet b7e870c489ff2f40762e16eb942857a0cc1b5dc81f4aadace5312a63d5460838  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=77acb881c47ad20c34b5fdaa8778e5c352776222dedc9d4c0ba80074ac41736b  height=11  log2_work=4.5849625  tx=12  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(12tx)
+2022-04-18 12:29:11 AddToWallet ca69a7d86b5ff1713db70a4218fb63e1773985ff4fdc883b83738881cc8f53dc  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1f7b5d21018960790ae43e5f56b320f706dd1cfc35cf6245448323815a3579ac  height=12  log2_work=4.7004397  tx=13  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(13tx)
+2022-04-18 12:29:11 AddToWallet 50c48f4d23a47acacddfe31c69162a9ccd4c008c80d037855cd8667826e75bd8  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=293eee97150e9161681bbb11d7e03798e70fbaa62e573b7fa8a6af6949c86fd1  height=13  log2_work=4.8073549  tx=14  date=2022-04-18 12:29:12 progress=1.000000  cache=0.0MiB(14tx)
+2022-04-18 12:29:11 AddToWallet 298cceac45e240586a68ca2b6cf753b934e38ae500d927ad1dab6000e122731b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=3738dbd291328c61e88148641844101660d7c5fd47f3dd561c64989810dd5f8a  height=14  log2_work=4.9068906  tx=15  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(15tx)
+2022-04-18 12:29:11 AddToWallet c931560fdf4dc33454c568a572ea75cdffc9594a631a20ad8f0f600a250f0211  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=6a800e444c30b0b3770d5d05ff2f3cec526103998b7e87423e22247664ecdb16  height=15  log2_work=5  tx=16  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(16tx)
+2022-04-18 12:29:11 AddToWallet 3cd0cd6b7efd2526a0eeb556a093535cac60a765c946b4c813473a562c143ac9  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=3039bc64e7933f70cb1861d2403c730931013d92a111dd03751a8372eb09f4cf  height=16  log2_work=5.0874628  tx=17  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(17tx)
+2022-04-18 12:29:11 AddToWallet 8ccaf39dc120356f611853f2f9e138ae4682e7115899a99415b8352c02e62692  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6c4c198952366d695103f5a3c6d7750782f505d8ec679cbfe86f9f6adfae8b1b  height=17  log2_work=5.169925  tx=18  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(18tx)
+2022-04-18 12:29:11 AddToWallet 233716f2d5b55e2df212706ee13f5f13d266bb24216cb9099c642b3e52869122  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=4bedbfee4a54ba9cd784bd15d35bb2f5525016100fb72d70fc89edade20a9495  height=18  log2_work=5.2479275  tx=19  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(19tx)
+2022-04-18 12:29:11 AddToWallet b1acb5701acbbdc92193370008d4b42c9fe86b63f8a77a2cbecf1cfc3685fd77  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=53227cfa147a0acb8246e071a9bc36be95092ce79465e150951a5e323bcbc905  height=19  log2_work=5.3219281  tx=20  date=2022-04-18 12:29:13 progress=1.000000  cache=0.0MiB(20tx)
+2022-04-18 12:29:11 AddToWallet 07da4c82c626e11fb8bd60aa5cb15f20980648615038b07cfbe8344741339bc0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=24aacf2a8abd77e9760ea012094593015262abc26f4af853d31223dd22f25101  height=20  log2_work=5.3923174  tx=21  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(21tx)
+2022-04-18 12:29:11 AddToWallet dbd27d00d02fec1b1fc88a90074b18df0749ef35d08c894e9d0698c4642a23e9  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=7489a128bb2fe3032e32a81a63e5a7ffb6ff51b1e2d41fc9fe64e24a51609ff1  height=21  log2_work=5.4594316  tx=22  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(22tx)
+2022-04-18 12:29:11 AddToWallet 313fbd0bad5754478f16b65a34ebece0b743f1b18211b8235bc520a3b7416ce3  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=7675b89224146e3ac00d5e0c5c2a5f3d38287dc932013e1668d0e6f5091cf6f1  height=22  log2_work=5.523562  tx=23  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(23tx)
+2022-04-18 12:29:11 AddToWallet 504bcde7429830da55207e13604e15f0a87975954bba851d48d5957365f56700  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=15fd0ba4f58a5c32862945c0ffaecb638955e3774ac474765a2fea23a8bc2730  height=23  log2_work=5.5849625  tx=24  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(24tx)
+2022-04-18 12:29:11 AddToWallet 603963538816e2006d82f2a936ed34a59b3a1ecedd5bf396c068c1fc50f91c1d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=0209ffa715a0d7f6f9a6ff90286a748a125ebde01e34b6a735314694624d01ce  height=24  log2_work=5.6438562  tx=25  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(25tx)
+2022-04-18 12:29:11 AddToWallet da6924a3c73ed0de7b12cbdf825d0ce95d615ac572613ba5a815f1c81058df56  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=23a368e6775c412c81e9bd8d944702f52c548e2003e6449417d91dbbe8ec56a6  height=25  log2_work=5.7004397  tx=26  date=2022-04-18 12:29:14 progress=1.000000  cache=0.0MiB(26tx)
+2022-04-18 12:29:11 AddToWallet 2e2e5b328271fa403f6ff9092a30170d03fb0a11c8b2f9b1f1d69fb0946c1788  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=216689cc543781568a6588a398279258c2ee15c18636a39ef3d9dd457a79347f  height=26  log2_work=5.7548875  tx=27  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(27tx)
+2022-04-18 12:29:11 AddToWallet 5ac1ee07fc419ca1c1be1ff765cfaedac2adc6dc77723c96276fd71523a04373  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=7bcc30a8df2ec29e8292546a6fc3970e925ab2ce0d21c82c1c97d2f715daa48b  height=27  log2_work=5.8073549  tx=28  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(28tx)
+2022-04-18 12:29:11 AddToWallet b2db16e1d8c23c4d5ef0b029668625a5e627a2eb956de21abe73ba377d0bc34e  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=509336b7347196cc63ec6dbebedb2ef1afdfa7d852777e276db328e68ee89978  height=28  log2_work=5.857981  tx=29  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(29tx)
+2022-04-18 12:29:11 AddToWallet a32af7be2ad7cd29d25e7666aa688a4fc195aaf607db53cf3b29729a1856898b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=5db33a98c7c53b0e1fba8951552d14f2c8879861124b8d970a884fdcab757f81  height=29  log2_work=5.9068906  tx=30  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(30tx)
+2022-04-18 12:29:11 AddToWallet 17e5372d7094fc6fe810802073de2d3d9b5ca04338bd5e5ce2f8c4cd9b87c719  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=3de0ed45431667a2afc1dff5254b100d7b9c9eb06483fa2ae12ac6a086b2b26b  height=30  log2_work=5.9541963  tx=31  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(31tx)
+2022-04-18 12:29:11 AddToWallet 36a27a9ed461fa9c539a1eb5fd9498add278551b4edd13099787f5072f27bf8b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=1c244256fb88d7dfcef0385685a7b73da1c14dc7144825e0830eb56ecc769aeb  height=31  log2_work=6  tx=32  date=2022-04-18 12:29:15 progress=1.000000  cache=0.0MiB(32tx)
+2022-04-18 12:29:11 AddToWallet 27bd6308a45c023b2aa97826c9ff25c0c099e5242b4df0453144e88f85f30ab3  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=13d1f05f8253ebc21a28414cd7e35cadaf8cc72f63726b6b2b94520a8c616017  height=32  log2_work=6.0443941  tx=33  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(33tx)
+2022-04-18 12:29:11 AddToWallet 7881325c92c9d15bbbce63b310786adb57f175b7e9c8b01d8e596f144f12ac52  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1b6eebef56caf571b690a87dfec02e4b5d39e24ebed2629aa1e00c6420aa69a5  height=33  log2_work=6.0874628  tx=34  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(34tx)
+2022-04-18 12:29:11 AddToWallet 744d403dd4c9c2f255d1f24d916ba444a619a728a62ee229e1016e8627be7513  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=366b232ada851644d64d14f7655df40d11c945e731428d7f3d03f9530729cfc7  height=34  log2_work=6.129283  tx=35  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(35tx)
+2022-04-18 12:29:11 AddToWallet 984a26dc4eb5eab90134242acde1597959a38ed9e7fca6ac1e658652fee71ec5  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=0f770873e55bf8e4b5016c90590afcb4c8fbebe96a03a8a01094aa435b244966  height=35  log2_work=6.169925  tx=36  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(36tx)
+2022-04-18 12:29:11 AddToWallet 1239a57af656e415265fc88f39e3cf26bd01f967beb633b1520a4540cc9d006a  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=38696cc467bc1073f35d99bad1e64e20673330455bff48d28f5649ef60235a3e  height=36  log2_work=6.2094534  tx=37  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(37tx)
+2022-04-18 12:29:11 AddToWallet 62f8241cf20ff4b7c298590a1ffbb93aa5acf02d31786c9a7667480cf1f9ad57  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=0c5e246367c1513fb4326543c5396ea5be5e1f1853da0b1d509258d2c31877aa  height=37  log2_work=6.2479275  tx=38  date=2022-04-18 12:29:16 progress=1.000000  cache=0.0MiB(38tx)
+2022-04-18 12:29:11 AddToWallet 5a4d679c4dbe892b9b235441a1664c07166d6089694ae5c2fd5ce4e75f9c7984  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=36e921fc9fb028d3e57d0fd2ad0331db74dda906e58ca7f57a107b66df14a8fb  height=38  log2_work=6.2854022  tx=39  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(39tx)
+2022-04-18 12:29:11 AddToWallet 81e5012e5e63b3ed268fcc32385e5d7829b00227b30694bdc790bd138688e732  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=21858907d91bb13d768954683c4c755d7e84a0f4e9d823f8cfcf98e880cc42ac  height=39  log2_work=6.3219281  tx=40  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(40tx)
+2022-04-18 12:29:11 AddToWallet a2e7648a62d689acdd4c5c712e7510eee8730c0fe50fd8ea1c46d990b8b06177  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=17f36c1a618e3271c94bbf5923c329e5c02128cc09122db7f7c84a69373eac0b  height=40  log2_work=6.357552  tx=41  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(41tx)
+2022-04-18 12:29:11 AddToWallet d614b9dcbe2a478eca79d455da1cb563b30f448c030431b2bf8d1b3c1c9f2124  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=3728bd7507020c61059ad9bcbe6914737a38ed3f0f255d79d00e447a248ce11f  height=41  log2_work=6.3923174  tx=42  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(42tx)
+2022-04-18 12:29:11 AddToWallet 6fd3939b6c82014abc982e7b1ec05c2004c24d33fc812b2cf38105e5efe025ed  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=43181f4f0b028d4efc50cc88d0b13f71a36e6b464fa5a4a4f853d3c94a1d1c88  height=42  log2_work=6.4262648  tx=43  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(43tx)
+2022-04-18 12:29:11 AddToWallet 4881885fa6e101db2d45c4c00504d87e8febd71c9f5741a266d4cae20cb08d6d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=51975874a6a5e6e8d6d973c0f8bf91df1c4db674c182b9663ae98cfc77510ce2  height=43  log2_work=6.4594316  tx=44  date=2022-04-18 12:29:17 progress=1.000000  cache=0.0MiB(44tx)
+2022-04-18 12:29:11 AddToWallet d3a0d997dd0aa2c0b0ed73f51638ce4e8e1f1ca0239254d4e2b187503b7b1d85  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=22cfda35d648a8e90d14544940284c1235c72171e776f93189cb6b9b55875e6d  height=44  log2_work=6.4918531  tx=45  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(45tx)
+2022-04-18 12:29:11 AddToWallet 15e1921e3548e5ff3051761359aae8eb3de311d63e78a647d1534d10e61489b2  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=53291e0124533eb9e5a6dc7bc31c5c092d625462cd5427b430c7df39667b4613  height=45  log2_work=6.523562  tx=46  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(46tx)
+2022-04-18 12:29:11 AddToWallet 0a2172546b9aa431d647b50b4428717087ed60b8fabbc1585472cbcea5552c20  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=290aa9b92a24ffa0c205ec63896bb9f21e38eba3dccf1a702ae41f00872d4674  height=46  log2_work=6.5545889  tx=47  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(47tx)
+2022-04-18 12:29:11 AddToWallet 92612a67ded4629c3f4a5195c1c5a9228533c3ffa3ae0fefdb07ab80f6f18e2e  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=6990a4cbef0ad525fcf12ac3f02de3ff2648953460894678e3c31dad9d9b478d  height=47  log2_work=6.5849625  tx=48  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(48tx)
+2022-04-18 12:29:11 AddToWallet cf744085115f8bfb2878b7c32d2edbe3fbb92ddc260cbc9d950d174575c8a1c0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=3d40f2f9b47a15b111cf94f4f50b35486b606d3580ed5d9bc3ffe2f00ebdd927  height=48  log2_work=6.6147098  tx=49  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(49tx)
+2022-04-18 12:29:11 AddToWallet 7705088c1a06fb66ea01ee1cbad140d5d7f4299c1c9729d3b9bb166857326f71  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1156d94eb6e734a619d0a6467db860a9cfbe8360358e416a7bfc4c4e3701e9c7  height=49  log2_work=6.6438562  tx=50  date=2022-04-18 12:29:18 progress=1.000000  cache=0.0MiB(50tx)
+2022-04-18 12:29:11 AddToWallet 6afc8ffd55a9cbfee335de532f25378e48584d58be9d80b14d80e7dffa091cf6  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=6bcec3002b936eec425dcdbf0040a481f0f98aff7cd5d53d2624fdb5e8257373  height=50  log2_work=6.6724253  tx=51  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(51tx)
+2022-04-18 12:29:11 AddToWallet 188895f6e8f036aa6f65d761f1cca0cbcd98218dace53b3b75e5c56b218e484a  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=65e8a82ad9a13e5c282791fd0b1023302527c1770e811c177c5fea4891b44de8  height=51  log2_work=6.7004397  tx=52  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(52tx)
+2022-04-18 12:29:11 AddToWallet c2d9c2d9e7baf3de8b56b7c5e15ad5d71894c3703872b1b473bafbc7c497d4be  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=333aab0a90dd12fb45f7965c1d7212332dd8e15e85f047be356fd52ba89016b7  height=52  log2_work=6.7279205  tx=53  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(53tx)
+2022-04-18 12:29:11 AddToWallet b26e6d99a39f657405d8c26c726b7dbf961e9ab8fb9c0ae79f6bb90fe88a8df8  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1b36cbf583575896c1c6eb0c68437300df513891adfcbcaa37fd8450b08f5d4d  height=53  log2_work=6.7548875  tx=54  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(54tx)
+2022-04-18 12:29:11 AddToWallet 8498387a8d3f4a0830ca36cd055661c3b151999c1c5749b3eb9fdf81d5c84d90  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=1efb1795a44213b431b42c5212c5180f0a712efb5fce560964675cab4215feb0  height=54  log2_work=6.7813597  tx=55  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(55tx)
+2022-04-18 12:29:11 AddToWallet a301a65514620e1d0f60458a5001834e9313861e119c0a9df5ce9682ad64e684  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6d532762c61457dd39ce5b69cb94071cc70ec9374420c11873bd37f4a352890f  height=55  log2_work=6.8073549  tx=56  date=2022-04-18 12:29:19 progress=1.000000  cache=0.0MiB(56tx)
+2022-04-18 12:29:11 AddToWallet 66822577e9dd4ad46e72f8a592f382d5ce8dda6a9a406966893ba9a8414562d4  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=23007fbfda76f6d12e377f1c961f5eed005f79bb24714ad7ab2ddc3091196538  height=56  log2_work=6.83289  tx=57  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(57tx)
+2022-04-18 12:29:11 AddToWallet 250bccff2391ce229608294a2eb2cdc095441599e7baa76111bdf8dc998e13bb  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=2843d588cf1346cb687ec6919b3c44b153677d731fa7cebd3d4ecd5b7fd20ba1  height=57  log2_work=6.857981  tx=58  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(58tx)
+2022-04-18 12:29:11 AddToWallet 62aab80b319cd55e8237e7f40acf66f76581496284e264f38a5fa04554d89e50  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=75eea0db884e46a0ff110b51a1f945b8ac6546a5b04bd712285c4282339f68a6  height=58  log2_work=6.882643  tx=59  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(59tx)
+2022-04-18 12:29:11 AddToWallet 92d79313cee3b4a5e89e2805c50d111936f5c33aec77663e76bd3bfcab19c78a  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6b2a8d96c9546674439d0538f718f17a247fcb470f7b30ad220b3b08421c1bbb  height=59  log2_work=6.9068906  tx=60  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(60tx)
+2022-04-18 12:29:11 AddToWallet 523c6d3b7a5c014ff4e1ded6a30883dbab840717b69634d13abc0da3fe3cf6a4  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=3aae3f22dec94b847c95f911f3280d95dda53a9893cf8ec49f7cffa317001798  height=60  log2_work=6.9307373  tx=61  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(61tx)
+2022-04-18 12:29:11 AddToWallet af7054f3c94f6d6dddcf28b2e6d5eadd7aaa9855b7cf4dcdb25eb3a2bf036381  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=66af8b3b13e26610cd659e26bda26d4b607b2a62f19324e9d87b30c9bd09c365  height=61  log2_work=6.9541963  tx=62  date=2022-04-18 12:29:20 progress=1.000000  cache=0.0MiB(62tx)
+2022-04-18 12:29:11 AddToWallet 74216598db79ee99101322e1047cdba9b06b26b8da1d5956d27286cf508bb076  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=7e7802263e95a506de5a64b796db6bc76c96037b42d58d15de107880e85acd76  height=62  log2_work=6.9772799  tx=63  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(63tx)
+2022-04-18 12:29:11 AddToWallet 9883e33948765ffb6b7012352aa014dda06374192a0ea7ccbc1953c593e50df8  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1705aca326251aeba986a424db64fe622570476405306c2b0565d469d288b8d6  height=63  log2_work=7  tx=64  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(64tx)
+2022-04-18 12:29:11 AddToWallet 0122b3adc396db3f8e63a3b71d996865cc58c13aef9cbf124abc865c503d33f0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=444e3a01ce9e1d41222dca63d36b665447b313e2b16db3d5499160cc9edc88bc  height=64  log2_work=7.0223678  tx=65  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(65tx)
+2022-04-18 12:29:11 AddToWallet 7060344cc3f6e67970dcd571ec7006542b8666f0c517223a9f5d30f83d4f6558  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=374bd2f61e01b63480e0befd3a79c0bd47c08f97be35c61d003377a619dde881  height=65  log2_work=7.0443941  tx=66  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(66tx)
+2022-04-18 12:29:11 AddToWallet 219053fe6a93f6131290a58d864c0c5a8a4394285ed80dd9531ce744d37b3d74  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=21e6e679b7fc105c517f3b875dd5d443ac934b92131a5ab686bed86686e548e6  height=66  log2_work=7.0660892  tx=67  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(67tx)
+2022-04-18 12:29:11 AddToWallet 5cdcaa5d55f31ee0efa39c190133e81b60f6fae3943929445955bd77639d1eb0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=062869719b7acacd6112b56abc039537ffca01484d6bfa8c69a266dce721254e  height=67  log2_work=7.0874628  tx=68  date=2022-04-18 12:29:21 progress=1.000000  cache=0.0MiB(68tx)
+2022-04-18 12:29:11 AddToWallet 5495ba4633192edc043057e2a84c98b0fd38168326246d29ebec1b627faf853e  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=57ce7f02421f06e4279978f30a1149608771966eeab6bf69a938a25b4fe5797e  height=68  log2_work=7.1085245  tx=69  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(69tx)
+2022-04-18 12:29:11 AddToWallet 23281f9976f6340ed377d712e435732222a2e90af22f33e9d97e2201219cd992  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6582668d6f5214930fb4460c1683aa083c22161f190dd29005aab6088d2f8518  height=69  log2_work=7.129283  tx=70  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(70tx)
+2022-04-18 12:29:11 AddToWallet f9de0ba445ad9e282f9c01a6f7ee93c0966ff5e366e4c6402f43db06cbb68b79  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=4fae252f85649f95c8319ab36d5a1ab2ecd60db0c952a882250c5560652d2a40  height=70  log2_work=7.1497471  tx=71  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(71tx)
+2022-04-18 12:29:11 AddToWallet 23de7ec49f3084de3c9938198fcf3f3e3912825254e255c96850e019a885ec0d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=674b059c222b3e1a3f086aa1c2db891fb9ea96a10c5eabed8e909a997dc172c8  height=71  log2_work=7.169925  tx=72  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(72tx)
+2022-04-18 12:29:11 AddToWallet 05f1012c50129f82fcc5867398bdde7077a698cdca2f944d80b6f72061abc657  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=48b60fc5c65f14b391a52d2efb1b04b7f83c938cf9307f8af40c05cf2da524f0  height=72  log2_work=7.1898246  tx=73  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(73tx)
+2022-04-18 12:29:11 AddToWallet f63ce79245036be74f6fc073266e7425146e5f37a27ff77908f21277e5cd35c5  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=76639abca7c41b1456833bae1ed54281478c79d02fb9009f1b88801a8b4a2dd8  height=73  log2_work=7.2094534  tx=74  date=2022-04-18 12:29:22 progress=1.000000  cache=0.0MiB(74tx)
+2022-04-18 12:29:11 AddToWallet 9fe163666ef6cc0c6539d2fc295f1dd55d749fbfe86b99aec84bf1ab23bbf68b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=2b3c6d84804a077edfdfb70471777d437185ed686defd7594fd4ba740578021a  height=74  log2_work=7.2288187  tx=75  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(75tx)
+2022-04-18 12:29:11 AddToWallet f1b1c2f316fd17dbd25e0f3d026eaeda41a3b1ad2540606e3144e90c894487f8  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1092bcdc638f0ba45f0ae8f10b949bef0300344bb8a37d79fdc5e39510531961  height=75  log2_work=7.2479275  tx=76  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(76tx)
+2022-04-18 12:29:11 AddToWallet cb05e1d026f4c6c5931e5a085a63a5c2b891cc87ba70ef3d499a4e832977465d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=4c04980f2aed5e9fb2e1382766284bece07bfe923b9958821515805ea59aa852  height=76  log2_work=7.2667865  tx=77  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(77tx)
+2022-04-18 12:29:11 AddToWallet 35663676858f2620727660ed2e0e48288c688f49b8d8d52eaa0faa37a5c38802  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=064cade6629f80c71129997ce76248e3100384a54e5859b13536ec40a298bc3b  height=77  log2_work=7.2854022  tx=78  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(78tx)
+2022-04-18 12:29:11 AddToWallet 9293bf53d8e167f39bc0d8d379abe19a4fb749a34c7ea727fdafebd2b6424e76  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=67e3513f13dba63532d7647b922acc65f03d23d130342e2a191a2d8d1c29f92c  height=78  log2_work=7.3037807  tx=79  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(79tx)
+2022-04-18 12:29:11 AddToWallet bb0ee862dd5bd1f8aa0ae9acbf7621789e84e96eefaf4b1851f59979c68b872c  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=3204e828494b38d962d24d756899d010bd6affc0641e1e74df55b7650c234daf  height=79  log2_work=7.3219281  tx=80  date=2022-04-18 12:29:23 progress=1.000000  cache=0.0MiB(80tx)
+2022-04-18 12:29:11 AddToWallet e8aee1ff5da9de9ae84c9b79444bd7f9336cc655bc594f1327e7a454706490c0  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=6b8d367ad4df9c0689b8b9e7f2fb1d890219cc7b74a6dcbe769e788956dd05b4  height=80  log2_work=7.33985  tx=81  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(81tx)
+2022-04-18 12:29:11 AddToWallet 60cd30f3774ce50790716e1cb165fe92420525315cd55107afb045ac7368c622  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=51f8f071c7cf865f17639afe92a3b9f83189f6be2fd188ef1e38dd790da053c2  height=81  log2_work=7.357552  tx=82  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(82tx)
+2022-04-18 12:29:11 AddToWallet 8332887ba7ef701f9eb8b5195e7adba93e4597b14a943078c7bfdfd2163d5ca3  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=39dfe2b5ee18a1e5244c60b763a0dd4551c8c851db7cf639a76a303acfcf501a  height=82  log2_work=7.3750394  tx=83  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(83tx)
+2022-04-18 12:29:11 AddToWallet f81955311b3f9b328dfba326540e70a14d72d2c8dd0a219563dee884d4a6054d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=3fe770cf50507a0b95c074d70491da3e3138537364bbb2ee2613cebbd6bc137e  height=83  log2_work=7.3923174  tx=84  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(84tx)
+2022-04-18 12:29:11 AddToWallet 162d9943950c5d382b558849008ee9c8047c32f19b5f30010c28910aad72e759  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=5dbbc7c91f453b25a69503579dd53cc5bc0be2ca4a1cd2d38e678d5032e159e0  height=84  log2_work=7.4093909  tx=85  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(85tx)
+2022-04-18 12:29:11 AddToWallet 515cf105fe45cf6c4c6ec8d020c7cf38138474453febe39bc8b37fe00242c49b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=250dbd4bf9864c2631267ef571e862edf076d841b88dc8536b1ab5a98b32e136  height=85  log2_work=7.4262648  tx=86  date=2022-04-18 12:29:24 progress=1.000000  cache=0.0MiB(86tx)
+2022-04-18 12:29:11 AddToWallet 8e601dc14bd658a93df78d7b20a0933245a23df6c9b5a5437158bb5ba965ee85  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6c233a7234ee71cb5bb80a9867571baf676d38d70a2f07309423cc5cb06d52fa  height=86  log2_work=7.4429435  tx=87  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(87tx)
+2022-04-18 12:29:11 AddToWallet 14c1128bdf570ba8d6a7a29ad28ffeea339466daa5c7a9b20f43479cdf052a7d  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=5032ef7174a7bf225ea0ee4138338e9fb47170856af28d6c979460dcfcc025f6  height=87  log2_work=7.4594316  tx=88  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(88tx)
+2022-04-18 12:29:11 AddToWallet ddb84eb657f752d30b40ccdff19ebb985acc2226bd82c5fd98c55da41a32704b  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=667e9671b4003fe55b1cf22d37f8a49a1fdd01d5d718fea78aa2e986b3a39a1f  height=88  log2_work=7.4757334  tx=89  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(89tx)
+2022-04-18 12:29:11 AddToWallet e7efbefd695262a57b77f959fbda82b8c864e3362fc491ac72b1a73f6f95de55  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=718b8017367facf5aa0ba9876462a3cd8143cfb0d5741cfed8ab376d9570fb70  height=89  log2_work=7.4918531  tx=90  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(90tx)
+2022-04-18 12:29:11 AddToWallet 040e2e0d3d94a349a19e67814a37f51003d6345fd0d792fc959a86f383c1707e  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=31bfa865caa4519de8e44b70b77ee7cfc995523af50248de749589e718feb94b  height=90  log2_work=7.5077946  tx=91  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(91tx)
+2022-04-18 12:29:11 AddToWallet 4ccd4b73fa2b00751be7f3a934a38a1124cc72db554ce4e3f295b1058cac81fb  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1c95ace251315e73c2e699cc59901e059d355bf69c00e45b6269dab6f779cc76  height=91  log2_work=7.523562  tx=92  date=2022-04-18 12:29:25 progress=1.000000  cache=0.0MiB(92tx)
+2022-04-18 12:29:11 AddToWallet bcd23cdce12c9cd6a3ce69a0c249ebb58a1a729994c4501bd41a89834a97b4b9  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=5fae8b48f2014dc3e4a7c8b54c02f11526cdfa1e512edaff3d60d844cf6c88bd  height=92  log2_work=7.5391588  tx=93  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(93tx)
+2022-04-18 12:29:11 AddToWallet 4846d69cbe9394a477ace980951d3b80983a2bea4132ec3879a8ee9c68cb1805  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=6c24a0941032309c760bb0dfd2eb84f967683dccae54cc868c99b20ff1240621  height=93  log2_work=7.5545889  tx=94  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(94tx)
+2022-04-18 12:29:11 AddToWallet b9d3a190a334dfe62ce72943dc91d7f07af08b70037bd0b2a4a0560ac42fb87c  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=1f12fb27cc10bbba1a3b602616cb72737f50fc486e9f482b97354fef2878b25f  height=94  log2_work=7.5698556  tx=95  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(95tx)
+2022-04-18 12:29:11 AddToWallet 391b474e56df5271ce03288398086210337ffc18e2b5a38f49a83afc93c45776  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=6c7e6f86d6859fb3a2942d14b88e33d98b5fbbac77bba96adfd7ce47b2650752  height=95  log2_work=7.5849625  tx=96  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(96tx)
+2022-04-18 12:29:11 AddToWallet 0a6b77e71ce4f6b87a304f045860657cd4ac352adcea01073d1a4f9f0408f555  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=2f3ec9f51652dddca6584282b56b93e0718c1cc12e157c7c97908e9fae9cd984  height=96  log2_work=7.5999128  tx=97  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(97tx)
+2022-04-18 12:29:11 AddToWallet 1467796ca2371b7e5365d23896f9b32c55065a5df35b3e72833e148e36ea1ab8  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=36a55dad2460f6fbddf15ac54871458128e06095a692bcad0807ed31ee75f67a  height=97  log2_work=7.6147098  tx=98  date=2022-04-18 12:29:26 progress=1.000000  cache=0.0MiB(98tx)
+2022-04-18 12:29:11 AddToWallet 9be492ba7bc436ca426e5b03fcc3c03fc568bd1f87efe8fd3d380c05e96e0664  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=536cee2b8d516950c2553cc7b60172abfc9c651f6d700c05d19a3b9995eb6e84  height=98  log2_work=7.6293566  tx=99  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(99tx)
+2022-04-18 12:29:11 AddToWallet 5f5daeaa2a385f1175418be459fbe925fb3d5d61050693ca6df5608f12265117  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=01ab1b9530bb7cb5dddd6e71b78d0ef316655ab4c68199ebea15afd68ccbbc95  height=99  log2_work=7.6438562  tx=100  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(100tx)
+2022-04-18 12:29:11 AddToWallet f8a823bc55d8b4b40e1c32c69085b48e575df2494d65859c242e1bfdc791ad10  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=09f2944834512f681c29495cefc594baa1089817598555f074282da75042657f  height=100  log2_work=7.6582115  tx=101  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(101tx)
+2022-04-18 12:29:11 AddToWallet 69a156b89c12dd9f4f616e511eb5e5de8dd7778f091636ba81eb63d68fc2c696  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=3c67c2798f1197bc4d0dabee9fb026d37053344878c6205181c4cf583589eb60  height=101  log2_work=7.6724253  tx=102  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(102tx)
+2022-04-18 12:29:11 AddToWallet b453c8af7f9f59ab20f15ba3707a4c2b4498fdeb92152a38fc866593b8e91d79  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2022-04-18 12:29:11 UpdateTip: new best=74ab91f8788c2d18c246f3645d4124b3a0c98528bc8633e7d59c1836f93fa3e9  height=102  log2_work=7.6865005  tx=103  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(103tx)
+2022-04-18 12:29:11 AddToWallet 24205d31af681c25d26a20aba5be4b1155899eefcb07526a23e5e07bd70d69b5  new
+2022-04-18 12:29:11 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:29:11 UpdateTip: new best=0486c9e26a50c4c67432c396669cc143a05ad994fac3761e6d9492dbb83332d8  height=103  log2_work=7.7004397  tx=104  date=2022-04-18 12:29:27 progress=1.000000  cache=0.0MiB(104tx)
+2022-04-18 12:29:11 AddToWallet 5e6bb351ac7a7d889f57e06638d936ae11537896f78028a47ba9d61b70d8e95d  new
+2022-04-18 12:49:55 tor: Thread interrupt
+2022-04-18 12:49:55 torcontrol thread exit
+2022-04-18 12:49:55 opencon thread interrupt
+2022-04-18 12:49:55 msghand thread interrupt
+2022-04-18 12:49:55 addcon thread interrupt
+2022-04-18 12:49:55 scheduler thread interrupt
+2022-04-18 12:49:55 net thread interrupt
+2022-04-18 12:49:55 Shutdown: In progress...
+2022-04-18 12:49:55 StopNode()
+2022-04-18 12:49:55 Shutdown: done
+2022-04-18 12:52:06 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-18 12:52:06 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-18 12:52:06 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-18 12:52:06 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-18 12:52:06 Default data directory /home/mojiu/.bitcoin
+2022-04-18 12:52:06 Using data directory /home/mojiu/bitcoin/bitcoinconf/Cory/regtest
+2022-04-18 12:52:06 Using config file /home/mojiu/bitcoin/bitcoinconf/Cory/bitcoin.conf
+2022-04-18 12:52:06 Using at most 125 connections (1024 file descriptors available)
+2022-04-18 12:52:06 Using 6 threads for script verification
+2022-04-18 12:52:06 scheduler thread start
+2022-04-18 12:52:06 HTTP: creating work queue of depth 16
+2022-04-18 12:52:06 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-18 12:52:06 HTTP: starting 4 worker threads
+2022-04-18 12:52:06 Using wallet wallet.dat
+2022-04-18 12:52:06 init message: Verifying wallet...
+2022-04-18 12:52:06 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/Cory/regtest/db.log
+2022-04-18 12:52:06 Bound to [::]:18333
+2022-04-18 12:52:06 Bound to 0.0.0.0:18333
+2022-04-18 12:52:06 Cache configuration:
+2022-04-18 12:52:06 * Using 2.0MiB for block index database
+2022-04-18 12:52:06 * Using 32.5MiB for chain state database
+2022-04-18 12:52:06 * Using 65.5MiB for in-memory UTXO set
+2022-04-18 12:52:06 init message: Loading block index...
+2022-04-18 12:52:06 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index
+2022-04-18 12:52:06 Opened LevelDB successfully
+2022-04-18 12:52:06 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/blocks/index: 0000000000000000
+2022-04-18 12:52:06 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate
+2022-04-18 12:52:06 Opened LevelDB successfully
+2022-04-18 12:52:06 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/chainstate: 78281a9be0335a39
+2022-04-18 12:52:06 LoadBlockIndexDB: last block file = 0
+2022-04-18 12:52:06 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=107, size=20202, heights=0...103, time=2011-02-02...2022-04-18)
+2022-04-18 12:52:06 Checking all blk files are present...
+2022-04-18 12:52:06 LoadBlockIndexDB: transaction index disabled
+2022-04-18 12:52:06 LoadBlockIndexDB: hashBestChain=0486c9e26a50c4c67432c396669cc143a05ad994fac3761e6d9492dbb83332d8 height=103 date=2022-04-18 12:29:27 progress=1.000000
+2022-04-18 12:52:06 init message: Verifying blocks...
+2022-04-18 12:52:06 Verifying last 103 blocks at level 3
+2022-04-18 12:52:06 No coin database inconsistencies in last 103 blocks (103 transactions)
+2022-04-18 12:52:06  block index              20ms
+2022-04-18 12:52:06 init message: Loading wallet...
+2022-04-18 12:52:06 nFileVersion = 120100
+2022-04-18 12:52:06 Keys: 111 plaintext, 0 encrypted, 111 w/ metadata, 111 total
+2022-04-18 12:52:06  wallet                    4ms
+2022-04-18 12:52:06 init message: Activating best chain...
+2022-04-18 12:52:06 mapBlockIndex.size() = 107
+2022-04-18 12:52:06 nBestHeight = 103
+2022-04-18 12:52:06 setKeyPool.size() = 100
+2022-04-18 12:52:06 mapWallet.size() = 217
+2022-04-18 12:52:06 mapAddressBook.size() = 2
+2022-04-18 12:52:06 init message: Loading addresses...
+2022-04-18 12:52:06 torcontrol thread start
+2022-04-18 12:52:06 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/Cory/regtest/banlist.dat
+2022-04-18 12:52:06 Invalid or missing banlist.dat; recreating
+2022-04-18 12:52:06 Loaded 0 addresses from peers.dat  1ms
+2022-04-18 12:52:06 AddLocal([2408:842e:cb0f:8a37:5b00:f63f:2301:8381]:18333,1)
+2022-04-18 12:52:06 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:5b00:f63f:2301:8381
+2022-04-18 12:52:06 AddLocal([2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333,1)
+2022-04-18 12:52:06 Discover: IPv6 wlp4s0: 2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83
+2022-04-18 12:52:06 net thread start
+2022-04-18 12:52:06 dnsseed thread start
+2022-04-18 12:52:06 Loading addresses from DNS seeds (could take a while)
+2022-04-18 12:52:06 0 addresses found from DNS seeds
+2022-04-18 12:52:06 dnsseed thread exit
+2022-04-18 12:52:06 msghand thread start
+2022-04-18 12:52:06 addcon thread start
+2022-04-18 12:52:06 init message: Done loading
+2022-04-18 12:52:06 opencon thread start
+2022-04-18 12:52:06 BitcoinMiner started
+2022-04-18 12:52:06 GUI: Platform customization: "other"
+2022-04-18 12:52:06 keypool added key 112, size=101
+2022-04-18 12:52:06 keypool reserve 12
+2022-04-18 12:52:06 CreateNewBlock(): total size 1000 txs: 0 fees: 0 sigops 100
+2022-04-18 12:52:06 Running BitcoinMiner with 1 transactions in block (180 bytes)
+2022-04-18 12:52:06 BitcoinMiner:
+2022-04-18 12:52:06 proof-of-work found  
+  hash: 00000050369d81181207a249492bff2cd54f0cf33b468fca9626e43602c52ac2  
+target: 7fffff0000000000000000000000000000000000000000000000000000000000
+2022-04-18 12:52:06 CBlock(hash=00000050369d81181207a249492bff2cd54f0cf33b468fca9626e43602c52ac2, ver=536870912, hashPrevBlock=0486c9e26a50c4c67432c396669cc143a05ad994fac3761e6d9492dbb83332d8, hashMerkleRoot=b108d2e093d70fc0afeadc7678f42e97b7d268f99549facc82fa309606223bfd, nTime=1650286326, nBits=207fffff, nNonce=27469, vtx=1)
+  CTransaction(hash=b108d2e093, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 01680101)
+    CTxOut(nValue=50.00000000, scriptPubKey=2103417ae47b6920f09fb7f8ad637d)
+
+
+2022-04-18 12:52:06 generated 50.00
+2022-04-18 12:52:06 UpdateTip: new best=00000050369d81181207a249492bff2cd54f0cf33b468fca9626e43602c52ac2  height=104  log2_work=7.7142455  tx=105  date=2022-04-18 12:52:06 progress=1.000000  cache=0.0MiB(1tx)
+2022-04-18 12:52:06 AddToWallet b108d2e093d70fc0afeadc7678f42e97b7d268f99549facc82fa309606223bfd  new
+2022-04-18 12:52:06 keypool keep 12
+2022-04-18 12:52:06 BitcoinMiner terminated
+2022-04-18 12:52:06 GUI: PaymentServer::LoadRootCAs: Loaded  249  root certificates
+2022-04-18 12:52:38 receive version message: /Satoshi:0.12.1/: version 70012, blocks=103, us=0.0.0.0:0, peer=1
+2022-04-18 12:52:38 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 12:52:58 receive version message: /Satoshi:0.12.1/: version 70012, blocks=103, us=0.0.0.0:0, peer=2
+2022-04-18 12:52:58 AdvertizeLocal: advertizing address [2408:842e:cb0f:8a37:22cf:f5e6:e8c7:7d83]:18333
+2022-04-18 12:53:07 Adding fixed seed nodes as DNS doesn't seem to be available.
+2022-04-18 12:53:56 keypool added key 113, size=101
+2022-04-18 12:53:56 keypool reserve 13
+2022-04-18 12:54:00 CommitTransaction:
+CTransaction(hash=bcf34af559, ver=1, vin.size=1, vout.size=2, nLockTime=104)
+    CTxIn(COutPoint(6e950d8bc0, 0), scriptSig=483045022100a8c7ddfc3912, nSequence=4294967294)
+    CTxOut(nValue=48.99996160, scriptPubKey=76a914dfce39f0c17716715fd65ad0)
+    CTxOut(nValue=1.00000000, scriptPubKey=76a914c53aba4b7949644c60c9cdcf)
+2022-04-18 12:54:00 keypool keep 13
+2022-04-18 12:54:00 AddToWallet bcf34af559c1dbc947af26313c59cf78529e1b46e0feade1ce58f83ba6115065  new
+2022-04-18 12:54:00 AddToWallet bcf34af559c1dbc947af26313c59cf78529e1b46e0feade1ce58f83ba6115065  
+2022-04-18 12:54:00 Relaying wtx bcf34af559c1dbc947af26313c59cf78529e1b46e0feade1ce58f83ba6115065
+2022-04-18 12:57:19 keypool added key 114, size=101
+2022-04-18 12:57:19 keypool reserve 14
+2022-04-18 12:57:19 keypool keep 14
+2022-04-18 12:58:30 tor: Thread interrupt
+2022-04-18 12:58:30 torcontrol thread exit
+2022-04-18 12:58:30 addcon thread interrupt
+2022-04-18 12:58:30 msghand thread interrupt
+2022-04-18 12:58:30 opencon thread interrupt
+2022-04-18 12:58:30 scheduler thread interrupt
+2022-04-18 12:58:30 net thread interrupt
+2022-04-18 12:58:30 Shutdown: In progress...
+2022-04-18 12:58:30 StopNode()
+2022-04-18 12:58:30 Shutdown: done

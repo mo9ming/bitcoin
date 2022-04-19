@@ -1,0 +1,201 @@
+2022-04-17 07:40:06 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022-04-17 07:40:06 Bitcoin version v0.12.1.0-9779e1e1f-dirty (2016-04-11 13:01:43 +0200)
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -connect set -> setting -dnsseed=0
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -connect set -> setting -listen=0
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -listen=0 -> setting -upnp=0
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -listen=0 -> setting -discover=0
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -listen=0 -> setting -listenonion=0
+2022-04-17 07:40:06 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2022-04-17 07:40:06 Using BerkeleyDB version Berkeley DB 5.3.28: (September  9, 2013)
+2022-04-17 07:40:06 Default data directory /home/mojiu/.bitcoin
+2022-04-17 07:40:06 Using data directory /home/mojiu/bitcoin/bitcoinconf/
+2022-04-17 07:40:06 Using config file /home/mojiu/bitcoin/bitcoinconf/bitcoin.conf
+2022-04-17 07:40:06 Using at most 125 connections (1024 file descriptors available)
+2022-04-17 07:40:06 Using 6 threads for script verification
+2022-04-17 07:40:06 scheduler thread start
+2022-04-17 07:40:06 HTTP: creating work queue of depth 16
+2022-04-17 07:40:06 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2022-04-17 07:40:06 HTTP: starting 4 worker threads
+2022-04-17 07:40:06 Using wallet wallet.dat
+2022-04-17 07:40:06 init message: Verifying wallet...
+2022-04-17 07:40:06 CDBEnv::Open: LogDir=/home/mojiu/bitcoin/bitcoinconf/database ErrorFile=/home/mojiu/bitcoin/bitcoinconf/db.log
+2022-04-17 07:40:06 Cache configuration:
+2022-04-17 07:40:06 * Using 2.0MiB for block index database
+2022-04-17 07:40:06 * Using 32.5MiB for chain state database
+2022-04-17 07:40:06 * Using 65.5MiB for in-memory UTXO set
+2022-04-17 07:40:06 init message: Loading block index...
+2022-04-17 07:40:06 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/blocks/index
+2022-04-17 07:40:06 Opened LevelDB successfully
+2022-04-17 07:40:06 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/blocks/index: 0000000000000000
+2022-04-17 07:40:06 Opening LevelDB in /home/mojiu/bitcoin/bitcoinconf/chainstate
+2022-04-17 07:40:06 Opened LevelDB successfully
+2022-04-17 07:40:06 Wrote new obfuscate key for /home/mojiu/bitcoin/bitcoinconf/chainstate: efdd5f6f45359d1f
+2022-04-17 07:40:06 Using obfuscation key for /home/mojiu/bitcoin/bitcoinconf/chainstate: efdd5f6f45359d1f
+2022-04-17 07:40:06 LoadBlockIndexDB: last block file = 0
+2022-04-17 07:40:06 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2022-04-17 07:40:06 Checking all blk files are present...
+2022-04-17 07:40:06 LoadBlockIndexDB: transaction index disabled
+2022-04-17 07:40:06 Initializing databases...
+2022-04-17 07:40:06 Pre-allocating up to position 0x1000000 in blk00000.dat
+2022-04-17 07:40:06 UpdateTip: new best=000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f  height=0  log2_work=32.000022  tx=1  date=2009-01-03 18:15:05 progress=0.000000  cache=0.0MiB(0tx)
+2022-04-17 07:40:06 init message: Verifying blocks...
+2022-04-17 07:40:06  block index              14ms
+2022-04-17 07:40:06 init message: Loading wallet...
+2022-04-17 07:40:06 nFileVersion = 120100
+2022-04-17 07:40:06 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2022-04-17 07:40:06 Performing wallet upgrade to 60000
+2022-04-17 07:40:06 keypool added key 1, size=1
+2022-04-17 07:40:06 keypool added key 2, size=2
+2022-04-17 07:40:06 keypool added key 3, size=3
+2022-04-17 07:40:06 keypool added key 4, size=4
+2022-04-17 07:40:06 keypool added key 5, size=5
+2022-04-17 07:40:06 keypool added key 6, size=6
+2022-04-17 07:40:06 keypool added key 7, size=7
+2022-04-17 07:40:06 keypool added key 8, size=8
+2022-04-17 07:40:06 keypool added key 9, size=9
+2022-04-17 07:40:06 keypool added key 10, size=10
+2022-04-17 07:40:06 keypool added key 11, size=11
+2022-04-17 07:40:06 keypool added key 12, size=12
+2022-04-17 07:40:06 keypool added key 13, size=13
+2022-04-17 07:40:06 keypool added key 14, size=14
+2022-04-17 07:40:06 keypool added key 15, size=15
+2022-04-17 07:40:06 keypool added key 16, size=16
+2022-04-17 07:40:06 keypool added key 17, size=17
+2022-04-17 07:40:06 keypool added key 18, size=18
+2022-04-17 07:40:06 keypool added key 19, size=19
+2022-04-17 07:40:06 keypool added key 20, size=20
+2022-04-17 07:40:06 keypool added key 21, size=21
+2022-04-17 07:40:06 keypool added key 22, size=22
+2022-04-17 07:40:06 keypool added key 23, size=23
+2022-04-17 07:40:06 keypool added key 24, size=24
+2022-04-17 07:40:06 keypool added key 25, size=25
+2022-04-17 07:40:06 keypool added key 26, size=26
+2022-04-17 07:40:06 keypool added key 27, size=27
+2022-04-17 07:40:06 keypool added key 28, size=28
+2022-04-17 07:40:06 keypool added key 29, size=29
+2022-04-17 07:40:06 keypool added key 30, size=30
+2022-04-17 07:40:06 keypool added key 31, size=31
+2022-04-17 07:40:06 keypool added key 32, size=32
+2022-04-17 07:40:06 keypool added key 33, size=33
+2022-04-17 07:40:06 keypool added key 34, size=34
+2022-04-17 07:40:06 keypool added key 35, size=35
+2022-04-17 07:40:06 keypool added key 36, size=36
+2022-04-17 07:40:06 keypool added key 37, size=37
+2022-04-17 07:40:06 keypool added key 38, size=38
+2022-04-17 07:40:06 keypool added key 39, size=39
+2022-04-17 07:40:06 keypool added key 40, size=40
+2022-04-17 07:40:06 keypool added key 41, size=41
+2022-04-17 07:40:06 keypool added key 42, size=42
+2022-04-17 07:40:06 keypool added key 43, size=43
+2022-04-17 07:40:06 keypool added key 44, size=44
+2022-04-17 07:40:06 keypool added key 45, size=45
+2022-04-17 07:40:06 keypool added key 46, size=46
+2022-04-17 07:40:06 keypool added key 47, size=47
+2022-04-17 07:40:06 keypool added key 48, size=48
+2022-04-17 07:40:06 keypool added key 49, size=49
+2022-04-17 07:40:06 keypool added key 50, size=50
+2022-04-17 07:40:06 keypool added key 51, size=51
+2022-04-17 07:40:06 keypool added key 52, size=52
+2022-04-17 07:40:06 keypool added key 53, size=53
+2022-04-17 07:40:06 keypool added key 54, size=54
+2022-04-17 07:40:06 keypool added key 55, size=55
+2022-04-17 07:40:06 keypool added key 56, size=56
+2022-04-17 07:40:06 keypool added key 57, size=57
+2022-04-17 07:40:06 keypool added key 58, size=58
+2022-04-17 07:40:06 keypool added key 59, size=59
+2022-04-17 07:40:06 keypool added key 60, size=60
+2022-04-17 07:40:06 keypool added key 61, size=61
+2022-04-17 07:40:06 keypool added key 62, size=62
+2022-04-17 07:40:06 keypool added key 63, size=63
+2022-04-17 07:40:06 keypool added key 64, size=64
+2022-04-17 07:40:06 keypool added key 65, size=65
+2022-04-17 07:40:06 keypool added key 66, size=66
+2022-04-17 07:40:06 keypool added key 67, size=67
+2022-04-17 07:40:06 keypool added key 68, size=68
+2022-04-17 07:40:06 keypool added key 69, size=69
+2022-04-17 07:40:06 keypool added key 70, size=70
+2022-04-17 07:40:06 keypool added key 71, size=71
+2022-04-17 07:40:06 keypool added key 72, size=72
+2022-04-17 07:40:06 keypool added key 73, size=73
+2022-04-17 07:40:06 keypool added key 74, size=74
+2022-04-17 07:40:06 keypool added key 75, size=75
+2022-04-17 07:40:06 keypool added key 76, size=76
+2022-04-17 07:40:06 keypool added key 77, size=77
+2022-04-17 07:40:06 keypool added key 78, size=78
+2022-04-17 07:40:06 keypool added key 79, size=79
+2022-04-17 07:40:06 keypool added key 80, size=80
+2022-04-17 07:40:06 keypool added key 81, size=81
+2022-04-17 07:40:06 keypool added key 82, size=82
+2022-04-17 07:40:06 keypool added key 83, size=83
+2022-04-17 07:40:06 keypool added key 84, size=84
+2022-04-17 07:40:06 keypool added key 85, size=85
+2022-04-17 07:40:06 keypool added key 86, size=86
+2022-04-17 07:40:06 keypool added key 87, size=87
+2022-04-17 07:40:06 keypool added key 88, size=88
+2022-04-17 07:40:06 keypool added key 89, size=89
+2022-04-17 07:40:06 keypool added key 90, size=90
+2022-04-17 07:40:06 keypool added key 91, size=91
+2022-04-17 07:40:06 keypool added key 92, size=92
+2022-04-17 07:40:06 keypool added key 93, size=93
+2022-04-17 07:40:06 keypool added key 94, size=94
+2022-04-17 07:40:06 keypool added key 95, size=95
+2022-04-17 07:40:06 keypool added key 96, size=96
+2022-04-17 07:40:06 keypool added key 97, size=97
+2022-04-17 07:40:06 keypool added key 98, size=98
+2022-04-17 07:40:06 keypool added key 99, size=99
+2022-04-17 07:40:06 keypool added key 100, size=100
+2022-04-17 07:40:06 keypool added key 101, size=101
+2022-04-17 07:40:06 keypool reserve 1
+2022-04-17 07:40:06 keypool keep 1
+2022-04-17 07:40:06  wallet                  173ms
+2022-04-17 07:40:06 init message: Activating best chain...
+2022-04-17 07:40:06 mapBlockIndex.size() = 1
+2022-04-17 07:40:06 nBestHeight = 0
+2022-04-17 07:40:06 setKeyPool.size() = 100
+2022-04-17 07:40:06 mapWallet.size() = 0
+2022-04-17 07:40:06 mapAddressBook.size() = 1
+2022-04-17 07:40:06 init message: Loading addresses...
+2022-04-17 07:40:06 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/peers.dat
+2022-04-17 07:40:06 Invalid or missing peers.dat; recreating
+2022-04-17 07:40:06 ERROR: Read: Failed to open file /home/mojiu/bitcoin/bitcoinconf/banlist.dat
+2022-04-17 07:40:06 Invalid or missing banlist.dat; recreating
+2022-04-17 07:40:06 Loaded 0 addresses from peers.dat  0ms
+2022-04-17 07:40:06 DNS seeding disabled
+2022-04-17 07:40:06 addcon thread start
+2022-04-17 07:40:06 init message: Done loading
+2022-04-17 07:40:06 msghand thread start
+2022-04-17 07:40:06 net thread start
+2022-04-17 07:40:06 BitcoinMiner started
+2022-04-17 07:40:06 opencon thread start
+2022-04-17 07:40:06 keypool added key 102, size=101
+2022-04-17 07:40:06 keypool reserve 2
+2022-04-17 07:40:06 receive version message: /Satoshi:0.12.1/: version 70012, blocks=90557, us=0.0.0.0:0, peer=1
+2022-04-17 08:04:16 opencon thread interrupt
+2022-04-17 08:04:16 addcon thread interrupt
+2022-04-17 08:04:16 msghand thread interrupt
+2022-04-17 08:04:16 scheduler thread interrupt
+2022-04-17 08:04:16 net thread interrupt
+2022-04-17 08:04:16 Shutdown: In progress...
+2022-04-17 08:04:16 StopNode()
+2022-04-17 08:04:16 BitcoinMiner terminated
+2022-04-17 08:04:16 keypool return 2
+2022-04-17 08:04:16 Shutdown: done
